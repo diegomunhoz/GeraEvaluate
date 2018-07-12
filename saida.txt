@@ -1,0 +1,1359 @@
+               WHEN 'ECCC0009                           '
+                   MOVE 'CNPJ_CPF INVÁLIDO '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0012                           '
+                   MOVE 'CONTEÚDO NÃO PERTENCE AO DOMÍNIO DO CAMPO '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0026                           '
+                   MOVE 'CAMPO DE PREENCHIMENTO OBRIGATÓRIO '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0030                           '
+                   MOVE 'O PROCESSAMENTO NÃO PODERÁ SER REALIZADO CONFORME A GRADE HORÁRIA ESTABELECIDA '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0031                           '
+                   MOVE 'DATA INVÁLIDA (VALE PARA “DATA DA PARCELA”, “DATA DA OPERAÇÃO” E “DATA DA ANO E MÊS COMPETÊNCIA DO PRIMEIRO DESCONTO”) '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0035                           '
+                   MOVE 'CAMPO NÃO ESTÁ PREENCHIDO CORRETAMENTE '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0037                           '
+                   MOVE 'VALOR INFORMADO DEVE SER MAIOR QUE ZERO '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0076                           '
+                   MOVE 'A DATA DE REFERÊNCIA INFORMADA É DIFERENTE DA DATA DE REFERÊNCIA DO SISTEMA '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0095                           '
+                   MOVE 'NOME DE ARQUIVO JÁ REGISTRADO '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0096                           '
+                   MOVE 'NOME DE ARQUIVO INVÁLIDO NO XML '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0113                           '
+                   MOVE 'PARTICIPANTE ADMINISTRADO NÃO É ADMINISTRADO PELO PARTICIPANTE PRINCIPAL '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0119                           '
+                   MOVE 'CONTRATO DUPLICADO – VERIFIQUE O NUMCTRLIFCONTRTO OU A CHAVE DO CONTRATO '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0120                           '
+                   MOVE 'PARCELA DUPLICADA – VERIFIQUE O NUMCTRLIFPARCL OU A CHAVE DA PARCELA '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0125                           '
+                   MOVE 'EXCLUSÃO RECUSADA – CONTRATO NÃO IDENTIFICADO '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0129                           '
+                   MOVE 'ARQUIVO CONTÊM QUANTIDADE DE REGISTROS MAIOR QUE O PERMITIDO '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0130                           '
+                   MOVE 'PARTICIPANTE INATIVO OU INEXISTENTE '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0131                           '
+                   MOVE 'TAG OU GRUPO INVÁLIDO PARA O TIPO DE CONTRATO INFORMADO '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0132                           '
+                   MOVE 'DATA DA PARCELA NÃO PODE SER INFERIOR À DATA DO CONTRATO '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0135                           '
+                   MOVE 'CNPJBASE_CED E CNPJBASE_CES ESTÃO IGUAIS AO PARTICIPANTE ADMINISTRADO '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0136                           '
+                   MOVE 'PARCELA NÃO PODE SER INFORMADA QUANDO A BAIXA POR LIQUIDAÇÃO NÃO É PARCIAL '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0137                           '
+                   MOVE 'PARCELA NÃO PERTENCE AO CONTRATO '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0138                           '
+                   MOVE 'CONTRATO INEXISTENTE '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0139                           '
+                   MOVE 'DATA DE VENCIMENTO DA PARCELA NÃO COMPATÍVEL COM ESTA OPERAÇÃO '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0140                           '
+                   MOVE 'PARCELA EM OPERAÇÃO DE BAIXA POR LIQUIDAÇÃO ANTECIPADA '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0141                           '
+                   MOVE 'NÚMERO DE CONTROLE DEVE SER ÚNICO '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0142                           '
+                   MOVE 'PARTICIPANTE NÃO ESTÁ EM PELO MENOS UMA CADEIA ATIVA DA(S) PARCELA(S) '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0143                           '
+                   MOVE 'CONTRATO POSSUI PARCELAS EM OPERAÇÃO PENDENTE DE ACEITE '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0144                           '
+                   MOVE 'NÃO HÁ PARCELAS A LIQUIDAR NO CONTRATO '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0145                           '
+                   MOVE 'PARTICIPANTE NÃO ESTÁ NA LISTA DE ACEITAÇÃO DA OPERAÇÃO '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0146                           '
+                   MOVE 'OPERAÇÃO INEXISTENTE '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0147                           '
+                   MOVE 'OPERAÇÃO ORIGINAL NÃO PODE SER CANCELADA PORQUE JÁ ESTÁ FINALIZADA '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0148                           '
+                   MOVE 'CONTRATO JÁ INFORMADO NA RESERVA '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0149                           '
+                   MOVE 'PARCELA JÁ INFORMADA NA RESERVA '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0150                           '
+                   MOVE 'QUANTIDADE DE CONTRATOS NA RESERVA ULTRAPASSA A INFORMADA NA TAG <QTDCONTRTORES> '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0151                           '
+                   MOVE 'RESERVA INEXISTENTE '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0152                           '
+                   MOVE 'CONTRATO BLOQUEADO PARA ESTA OPERAÇÃO '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0153                           '
+                   MOVE 'RESERVA AINDA PENDENTE DE CONTRAPARTE '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0154                           '
+                   MOVE 'CANCELAMENTO PERMITIDO SOMENTE AO SOLICITANTE DA REQUISIÇÃO '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0155                           '
+                   MOVE 'ADITAMENTO NÃO PERMITIDO PARA O PARTICIPANTE ADMINISTRADO INFORMADO '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0156                           '
+                   MOVE 'RESERVA JÁ INFORMADA '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0157                           '
+                   MOVE 'BAIXA POR LIQUIDAÇÃO ANTECIPADA JÁ FINALIZADA '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0158                           '
+                   MOVE 'ACEITE DE BAIXA POR LIQUIDAÇÃO ANTECIPADA JÁ INFORMADO '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0159                           '
+                   MOVE 'RECOMPRA JÁ FINALIZADA '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0160                           '
+                   MOVE 'ACEITE PARA RECOMPRA JÁ INFORMADA '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0161                           '
+                   MOVE 'INCLUSÃO DE CONTRATOS PERMITIDA SOMENTE PARA A INSITUIÇÃO ORIGINADORA '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0162                           '
+                   MOVE 'DATA DE CONTRATAÇÃO DEVE SER MENOR OU IGUAL A DATA DO SISTEMA '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0163                           '
+                   MOVE 'CAMPO NÃO DEVE SER PREENCHIDO PARA O TIPO DE CONTRATO INFORMADO '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0164                           '
+                   MOVE 'INFORMAÇÃO EM DUPLICIDADE '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0165                           '
+                   MOVE 'EXCLUSÃO RECUSADA – CONTRATO EM CADEIA '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0166                           '
+                   MOVE 'EXCLUSÃO RECUSADA – PARCELAS DO CONTRATO EM OPERAÇÃO CORRENTE '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0167                           '
+                   MOVE 'DATA DA PARCELA DEVE SER MAIOR QUE À DATA CORRENTE '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0168                           '
+                   MOVE 'PARCELA JÁ BAIXADA '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0169                           '
+                   MOVE 'PARCELA EM OPERAÇÃO DE RECOMPRA '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0170                           '
+                   MOVE 'PARCELA EM OPERAÇÃO DE RESERVA '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0171                           '
+                   MOVE 'PARCELA EM OPERAÇÃO DE CESSÃO '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0172                           '
+                   MOVE 'DATA DO CONTRATO MAIOR QUE A DATA DA RESERVA '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0173                           '
+                   MOVE 'DATA DA OPERAÇÃO DE RESERVA MENOR QUE A DATA DO CONTRATO '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0174                           '
+                   MOVE 'DATA DA OPERAÇÃO DE RESERVA DEVE SER MENOR OU IGUAL A DATA DO SISTEMA '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0175                           '
+                   MOVE 'CEDENTE DEVE SER O SOLICITANTE DA RESERVA '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0176                           '
+                   MOVE 'DIVERGÊNCIA EM RELAÇÃO A VALOR PREVIAMENTE INFORMADO '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0177                           '
+                   MOVE 'CHAVE IDENTIFICADORA DA RESERVA DEVE SER ÚNICA '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0178                           '
+                   MOVE 'OPERAÇÃO CANCELADA '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0179                           '
+                   MOVE 'OPERAÇÃO FINALIZADA '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0180                           '
+                   MOVE 'CESSIONÁRIO DEVE SER O SOLICITANTE DA RESERVA '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0181                           '
+                   MOVE 'CHASSI EM USO POR OUTRO CONTRATO '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0182                           '
+                   MOVE 'PARCELA NÃO PERTENCE AO CEDENTE '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0183                           '
+                   MOVE 'NUPARCL NÃO CORRESPONDE À CHAVE DA PARCELA (DATA DE VENCIMENTO + VALOR) '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0184                           '
+                   MOVE 'PARCELA BLOQUEADA POR OPERAÇÃO DA FASE I '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0185                           '
+                   MOVE 'CONTRATO EXCLUÍDO '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0186                           '
+                   MOVE 'INFORMAÇÃO DIVERGENTE DO QUE CONSTA NO CONTRATO ORIGINAL '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0187                           '
+                   MOVE 'RESERVA NÃO FINALIZADA '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0188                           '
+                   MOVE 'CESSÃO JÁ FOI FINALIZADA '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0189                           '
+                   MOVE 'CONTRATO NÃO PODE SER ADITADO NESTE MOMENTO PORQUE HÁ PARCELAS CEDIDAS '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0190                           '
+                   MOVE 'CHASSI NÃO PERTENCE AO CONTRATO '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0191                           '
+                   MOVE 'RESERVA JÁ CANCELADA '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0192                           '
+                   MOVE 'CESSIONÁRIO JÁ PERTENCE À CADEIA ATIVA DA PARCELA '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0193                           '
+                   MOVE 'RESERVA EM OPERAÇÃO DE CESSÃO '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0194                           '
+                   MOVE 'CONTRATO NÃO EXISTE OU ESTÁ BLOQUEADO PARA ADITAMENTO OU NÃO FOI EMITIDO PELO PARTICIPANTE. '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0195                           '
+                   MOVE 'PARCELA BAIXADA NÃO PODE SER EXCLUÍDA '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0196                           '
+                   MOVE 'CHASSI JÁ CADASTRADO '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0197                           '
+                   MOVE 'PARCELA NÃO PODE SER INFORMADA QUANDO A RECOMPRA É TOTAL '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0198                           '
+                   MOVE 'PELO MENOS UMA PARCELA DEVERÁ SER INFORMADA '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0199                           '
+                   MOVE 'RESERVA JÁ CEDIDA '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0200                           '
+                   MOVE 'SOLICITAÇÃO INCLUI RECOMPRA PARA FRENTE E PARA TRÁS, SIMULTANEAMENTE '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0201                           '
+                   MOVE 'PARCELA JÁ ENCONTRA-SE NA POSIÇÃO DO SOLICITANTE '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0202                           '
+                   MOVE 'SOLICITANTE NÃO PODE RECOMPRAR PARCELA '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0203                           '
+                   MOVE 'PARTICIPANTE NÃO PODE ADITAR O CONTRATO '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0204                           '
+                   MOVE 'O SOLICITANTE NÃO É O ORIGINADOR DO CONTRATO '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0205                           '
+                   MOVE 'NÃO EXISTE CADEIA PARA A PARCELA '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0206                           '
+                   MOVE 'O PRIMEIRO ELO DA CADEIA NÃO É O SOLICITANTE DO ADITAMENTO '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0207                           '
+                   MOVE 'O SOLICITANTE DO ADITAMENTO NÃO É O SOLICITANTE DA RECOMPRA '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0208                           '
+                   MOVE 'O SOLICITANTE DO ADITAMENTO NÃO É O ORIGINADOR E O CONTRATO ESTÁ COMO ATIVO '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0209                           '
+                   MOVE 'O ORIGINADOR NÃO É PARTICIPANTE E NÃO É O PRIMEIRO ELO DA CADEIA '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0210                           '
+                   MOVE 'A RESERVA FOI RECUSADA POR NÃO HAVER NENHUM CONTRATO ELEGÍVEL '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0211                           '
+                   MOVE 'VALOR DEVE SER MAIOR QUE ZERO '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0212                           '
+                   MOVE 'OBRIGATÓRIO INFORMAR O BANCO LIQUIDANTE EM CASO DE LIQUIDAÇÃO PELA CIP '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0213                           '
+                   MOVE 'VALOR DEVE SER MAIOR QUE 0 E MENOR OU IGUAL A 100, COM ATÉ 2 DECIMAIS '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0214                           '
+                   MOVE 'TPPARTRESPONSTARCTRAPART E PERCTAR SÃO OBRIGATÓRIAS CASO PELO UMA DELAS SEJA INFORMADA. '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0217                           '
+                   MOVE 'DEVE SER IGUAL À DATA DE REFERÊNCIA '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0218                           '
+                   MOVE 'DEVE SER MENOR OU IGUAL À DATA DE REFERÊNCIA '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0219                           '
+                   MOVE 'BANCO LIQUIDANTE NÃO CADASTRADO PARA ESTE PARTICIPANTE '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0220                           '
+                   MOVE 'BANCO LIQUIDANTE NÃO ESTÁ ATIVO NA C3 '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0221                           '
+                   MOVE 'LIQUIDAÇÃO EXTERNA À CIP NÃO PERMITIDA '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0222                           '
+                   MOVE 'CANCELAMENTO EM ANDAMENTO '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0223                           '
+                   MOVE 'CANCELAMENTO NÃO EXECUTADO: LIQUIDAÇÃO EM ANDAMENTO '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0224                           '
+                   MOVE 'CANCELAMENTO NÃO EXECUTADO: LIQUIDAÇÃO CONCLUÍDA '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0225                           '
+                   MOVE 'OPERAÇÃO DE CESSÃO NÃO SE ENCONTRA MAIS PENDENTE DE LIQUIDAÇÃO FINANCEIRA '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0226                           '
+                   MOVE 'OPERAÇÃO NÃO PERMITIDA: RESERVA EM PROCESSAMENTO '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0227                           '
+                   MOVE 'OPERAÇÃO NÃO PERMITIDA: CESSÃO DIVERGENTE '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0228                           '
+                   MOVE 'OPERAÇÃO NÃO PERMITIDA: CESSÃO EM LIQUIDAÇÃO '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0229                           '
+                   MOVE 'BANCO LIQUIDANTE INATIVO OU INEXISTENTE COM PARTICIPANTE DO C3 '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0230                           '
+                   MOVE 'PARTICIPANTE NÃO ADERIU A ESTA FUNCIONALIDADE '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0233                           '
+                   MOVE 'PARTICIPANTE NÃO AUTORIZOU BLOQUEIO/DESBLOQUEIO DE ATIVOS '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0234                           '
+                   MOVE 'UM MESMO CONTRATO NÃO PODE SER REPETIDO NO ARQUIVO '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0235                           '
+                   MOVE 'CONTRATO OU PARCELAS BLOQUEADAS '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0236                           '
+                   MOVE 'CONTRATO NÃO POSSUI NENHUMA PARCELA A VENCER '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0237                           '
+                   MOVE 'TODAS AS PARCELAS DO CONTRATO DEVEM ESTAR NA POSIÇÃO DA IF '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0238                           '
+                   MOVE 'CONTRATO ORIGINADO POR OUTRA IF '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0239                           '
+                   MOVE 'CONTRATO POSSUI PARCELA EM RESERVA OU EM NEGOCIAÇÃO '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0240                           '
+                   MOVE 'PARTICIPANTE NÃO AUTORIZADO A BLOQUEAR/DESBLOQUEAR OU TRANSFERIR/DEVOLVER POR PARCELA '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0241                           '
+                   MOVE 'PARTICIPANTE ADMINISTRADO DIFERENTE DO BENEFICIÁRIO '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0242                           '
+                   MOVE 'CONTRATO NÃO POSSUI PARCELAS BLOQUEADAS '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0243                           '
+                   MOVE 'PARCELA NÃO ESTÁ BLOQUEADA '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0244                           '
+                   MOVE 'CONTRATO/PARCELA BLOQUEADO PARA OUTRO BENEFICIÁRIO '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0245                           '
+                   MOVE 'IDENTIFICADOR DE LOTE INEXISTENTE '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0246                           '
+                   MOVE 'TODAS AS PARCELAS DO CONTRATO DEVEM ESTAR BLOQUEADAS PARA O BENEFICIÁRIO '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0247                           '
+                   MOVE 'PARCELA VENCIDA '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0248                           '
+                   MOVE 'CONTRATO/PARCELA SÓ PODE SER TRANSFERIDO/DEVOLVIDO PARA O BENEFICIADOR ORIGINAL '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0249                           '
+                   MOVE 'SISTEMA NÃO HABILITADO A TRANSFERIR TODA A CARTEIRA '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0250                           '
+                   MOVE 'CONTRATO/PARCELA NÃO ESTÁ BLOQUEADO EM FAVOR DESTE PARTICIPANTE '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0251                           '
+                   MOVE 'CONTRATO/PARCELA SÓ PODE SER TRANSFERIDO PARA O BENEFICIÁRIO DO BLOQUEIO '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0252                           '
+                   MOVE 'CONTRATO/PARCELA NÃO ESTÁ NA POSIÇÃO DO PARTICIPANTE '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0253                           '
+                   MOVE 'PARTICIPANTE NÃO CADASTRADO COMO BENEFICIÁRIO '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0254                           '
+                   MOVE 'PARTICIPANTE NÃO CADASTRADO COMO BENEFICIADOR '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0255                           '
+                   MOVE 'QUANTIDADE DE PARCELAS ORIGINALMENTE CONTRATADA É OBRIGATÓRIO PARA ESTE ENTE '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0256                           '
+                   MOVE 'CONTRATO COM A VALIDAÇÃO DA GARANTIA INVÁLIDA '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0257                           '
+                   MOVE 'ANO E MÊS DA COMPETÊNCIA DO PRIMEIRO DESCONTO É OBRIGATÓRIO PARA ESTE ENTE '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0258                           '
+                   MOVE 'NÚMERO DO CONTRATO DO ENTE CONSIGNANTE É OBRIGATÓRIO PARA ESTE ENTE '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0259                           '
+                   MOVE 'AO MENOS UMA TAG DEVE SER PREENCHIDA PARA O GRUPO '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0260                           '
+                   MOVE 'NÚMERO DO BENEFÍCIO NO ENTE CONSIGNANTE É OBRIGATÓRIO PARA ESTE ENTE '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0261                           '
+                   MOVE 'GRUPO DE CONSIGNADO É OBRIGATÓRIO PARA ESTE ENTE '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0262                           '
+                   MOVE 'QUANTIDADE DE PARCELAS TEM QUE SER MAIOR OU IGUAL AO NÚMERO DE PARCELAS REGISTRADAS NO C3 '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0263                           '
+                   MOVE 'ANO E MÊS COMPETÊNCIA DO PRIMEIRO DESCONTO DEVE SER MAIOR OU IGUAL AO ANO E MÊS DA DATA DO CONTRATO '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0264                           '
+                   MOVE 'NU GARANTIA NÃO CADASTRADO '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0265                           '
+                   MOVE 'CONTRATO SOB MONITORAÇÃO NÃO PODE SER SOLICITADO '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0266                           '
+                   MOVE 'CONTRATO SÓ PODE SER ALTERADO PELO ORIGINADOR OU SEU INCORPORADOR '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0267                           '
+                   MOVE 'CONTRATO NÃO SUBMETIDO À VALIDAÇÃO DO AGENTE VALIDADOR '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0268                           '
+                   MOVE 'CONTRATO NÃO PERMITIDO POR NÃO POSSUIR TODAS AS GARANTIAS VÁLIDAS '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0269                           '
+                   MOVE 'CONTRATO SOB MONITORAÇÃO NÃO PODE SER ADITADO '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0270                           '
+                   MOVE 'GRUPO INVÁLIDO PARA O AGENTE VALIDADOR '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0271                           '
+                   MOVE 'VALOR DIVERGENTE COM O REGISTRADO NA CIP '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0272                           '
+                   MOVE 'AGENTE VALIDADOR INVÁLIDO '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0273                           '
+                   MOVE 'NÚMERO DA MATRÍCULA NO ENTE CONSIGNANTE NÃO PERMITIDO PARA ESTE ENTE '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0274                           '
+                   MOVE 'GRUPO CONSIGNADO NÃO DEVER SER PREENCHIDO PARA ESTE TIPO DE CONTRATO '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0275                           '
+                   MOVE 'CONTRATO AGUARDANDO A VALIDAÇÃO DO AGENTE VALIDADOR '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0276                           '
+                   MOVE 'OPERAÇÃO NÃO PERMITIDA PARA GARANTIA CANCELADA '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0277                           '
+                   MOVE 'AO MENOS UM CHASSI DEVE ESTAR ATIVO '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0278                           '
+                   MOVE 'CANCELAMENTO DE MONITORAÇÃO NÃO PERMITIDO PARA CONTRATO NÃO MONITORADO '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0279                           '
+                   MOVE 'NÃO É PERMITIDO A EXCLUSÃO DE TODAS AS PARCELAS DO CONTRATO '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0280                           '
+                   MOVE 'NÃO É PERMITIDO A EXCLUSÃO DE TODOS OS CHASSIS DO CONTRATO '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0281                           '
+                   MOVE 'NÃO É PERMITIDO A EXCLUSÃO DE TODOS OS CHASSIS E DE TODAS AS PARCELAS DO CONTRATO '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0282                           '
+                   MOVE 'ANO E MÊS DA COMPETÊNCIA DO PRIMEIRO DESCONTO DEVE SER MENOR OU IGUAL AO ANO E MÊS DA DATA ÚLTIMA PARCELA INFORMADA NO CONTRATO '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0283                           '
+                   MOVE 'CRIVO NO SNG INVÁLIDO '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0284                           '
+                   MOVE 'ADITAMENTO NÃO PERMITIDO: GRUPO DE INCLUSÃO DE PARCELAS DEVE SER INFORMADO PARA CONTRATOS COM SITUAÇÃO BAIXADO NA C3 '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0285                           '
+                   MOVE 'EXCLUSÃO NÃO PERMITIDA. CONTRATO TRANSFERIDO OU DEVOLVIDO PARA POSIÇÃO DO BENEFICIÁRIO/BENEFICIADOR. '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0286                           '
+                   MOVE 'BENEFICIADOR NÃO PODE SER IGUAL AO BENEFICIÁRIO '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0287                           '
+                   MOVE 'PARTICIPANTE COM SITUAÇÃO IGUAL A SUSPENSO. '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0288                           '
+                   MOVE 'PARTICIPANTE INFORMADO É O GESTOR ATUAL DO CONTRATO '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0289                           '
+                   MOVE 'PARTICIPANTE NÃO PARTICIPA DA CADEIA DE TODAS AS PARCELAS ATIVAS '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0290                           '
+                   MOVE 'CONTRATO POSSUI PARCELAS ATIVAS NA POSIÇÃO DO GESTOR ATUAL '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0291                           '
+                   MOVE 'NÃO É PERMITIDO REALIZAR A TROCA DE GESTÃO DE CONTRATOS CEDIDOS SEM COOBRIGAÇÃO '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0292                           '
+                   MOVE 'NÃO É PERMITIDO REALIZAR A TROCA DE GESTÃO DE CONTRATOS CEDIDOS COM COOBRIGAÇÃO '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0293                           '
+                   MOVE 'TROCA DE GESTÃO NÃO EXISTE '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0294                           '
+                   MOVE 'TROCA DE GESTÃO JÁ CONFIRMADA '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0295                           '
+                   MOVE 'PARTICIPANTE NÃO FAZ PARTE DA LISTA DE CONFIRMAÇÃO DE TROCA DE GESTÃO '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0296                           '
+                   MOVE 'DATA DE CONTRATAÇÃO DO CONTRATO DEVE SER MENOR QUE DATA EM QUE A INSTITUIÇÃO ORIGINADORA ENTROU EM LIQUIDAÇÃO '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0297                           '
+                   MOVE 'PARTICIPANTE NÃO É O GESTOR ATUAL DO CONTRATO '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0298                           '
+                   MOVE 'CONTRATO COM TROCA DE GESTÃO PENDENTE '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0299                           '
+                   MOVE 'CEDENTE NÃO É O GESTOR ATUAL DO CONTRATO '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0300                           '
+                   MOVE 'NÃO É PERMITIDA RESERVA PARCIAL COM TROCA DE GESTÃO PARA UM CONTRATO '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0301                           '
+                   MOVE 'RESERVA NÃO PERMITIDA. PARA RESERVA COM TROCA DE GESTÃO INDICADOR DE COOBRIGAÇÃO DEVE SER INFORMADO IGUAL A S/SIM '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0302                           '
+                   MOVE 'RESERVA NÃO PERMITIDA. PARA RESERVA COM TROCA DE GESTÃO INDICADOR DE COOBRIGAÇÃO DEVE SER INFORMADO IGUAL A N/NÃO '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0303                           '
+                   MOVE 'BLOQUEIO DE CONTRATOS PERMITIDO SOMENTE PARA A INSTITUIÇÃO ORIGINADORA OU SEU INCORPORADOR '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0304                           '
+                   MOVE 'BENEFICIADOR INFORMADO NÃO É O BENEFICIADOR ORIGINAL DO BLOQUEIO DO CONTRATO OU SEU INCORPORADOR '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0305                           '
+                   MOVE 'BENEFICIÁRIO INFORMADO NÃO É O BENEFICIÁRIO ORIGINAL DO BLOQUEIO DO CONTRATO OU SEU INCORPORADOR '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0306                           '
+                   MOVE 'BENEFICIADOR NÃO É O GESTOR ATUAL DO CONTRATO '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0307                           '
+                   MOVE 'CONTRATO/PARCELA NÃO PERTENCE AO BENEFICIADOR '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0308                           '
+                   MOVE 'PARCELA NÃO PERTENCE AO BENEFICIADOR '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0309                           '
+                   MOVE 'MÓDULO DE GESTÃO DE CONTRATOS NÃO ATIVADO PARA O SISTEMA '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0310                           '
+                   MOVE 'MÓDULO DE GESTÃO DE CONTRATOS NÃO ATIVADO PARA O PARTICIPANTE '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0311                           '
+                   MOVE 'PERÍODO INFORMADO ULTRAPASSA O PERMITIDO NO SISTEMA '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0312                           '
+                   MOVE 'CAMPO OBRIGATÓRIO QUANDO O TIPO DE SOLICITAÇÃO IGUAL A ANALÍTICO '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0313                           '
+                   MOVE 'AS TAGS DE INICIO E FIM DEVEM ESTAR PREENCHIDAS '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0314                           '
+                   MOVE 'CAMPO OBRIGATÓRIO QUANDO O TIPO DE SOLICITAÇÃO IGUAL A ANALÍTICO '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0315                           '
+                   MOVE 'CPF_CNPJ NÃO CADASTRADO NA C3 '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0316                           '
+                   MOVE 'O VALOR DEVE SER INFORMADO APENAS PARA PESSOA JURÍDICA '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0317                           '
+                   MOVE 'O CAMPO DEVER SER PREENCHIDO APENAS PARA PESSOA JURÍDICA '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0318                           '
+                   MOVE 'DÍGITO VERIFICADOR NÃO CONFERE '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0319                           '
+                   MOVE 'INCLUSÃO NÃO PERMITIDA, CNPJ OU CPF JÁ CADASTRADO NA C3 '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0320                           '
+                   MOVE 'DATA DE VENCIMENTO DO TÍTULO DIVERGENTE DA DATA DE VENCIMENTO DA PARCELA '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0321                           '
+                   MOVE 'TIPO DE CLIENTE INFORMADO DIVERGENTE DO PERMITIDO '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0322                           '
+                   MOVE 'SUBTIPO DE GARANTIA INFORMADO NÃO CORRESPONDE AO TIPO DE GARANTIA '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0323                           '
+                   MOVE 'DATA DE VENCIMENTO DA PRIMEIRA PARCELA DEVE SER MAIOR QUE A DATA DO CONTRATO '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0324                           '
+                   MOVE 'DATA DE VENCIMENTO DEVE SER IGUAL A ÚLTIMA DATA DE VENCIMENTO INFORMADA NO GRUPO DE PARCELAS '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0325                           '
+                   MOVE 'DADOS DE PESSOA FÍSICA DEVEM SER OBRIGATORIAMENTE INFORMADOS '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0326                           '
+                   MOVE 'DADOS DE PESSOA JURÍDICA DEVEM SER OBRIGATORIAMENTE INFORMADOS '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0327                           '
+                   MOVE 'CONTRATO INFORMADO NÃO É PERMITIDO PARA ESTE ARQUIVO '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0328                           '
+                   MOVE 'FORMA DE PAGAMENTO OBRIGATÓRIO PARA O ADITAMENTO DE PARCELAS '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0329                           '
+                   MOVE 'EXISTE MAIS DE UMA CESSÃO PARA A DATA INFORMADA, FAVOR REENVIAR O ARQUIVO INFORMANDO O NUCESS '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0330                           '
+                   MOVE 'ENVIAR O GRUPO CORRESPONDENTE AO TIPO DE CLIENTE INFORMADO '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0331                           '
+                   MOVE 'DADOS ENVIADOS NÃO CORRESPONDEM A FORMA DE PAGAMENTO INFORMADA '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0332                           '
+                   MOVE 'DADOS REFERENTES À PARCELA OU FORMA DE PAGAMENTO, NÃO INFORMADOS. '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0333                           '
+                   MOVE 'ERRO AO RECOMPRAR OU LIQUIDAR UM CONTRATO JÁ BAIXADO '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0334                           '
+                   MOVE 'ADITAMENTO NÃO PERMITIDO. CONTRATO EM PROCESSO DE PORTABILIDADE '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0335                           '
+                   MOVE 'RESERVA OU ACEITE DA RESERVA NÃO PERMITIDO. CONTRATO EM PROCESSO DE PORTABILIDADE '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0336                           '
+                   MOVE 'TROCA DE GESTÃO NÃO PERMITIDA. CONTRATO EM PROCESSO DE PORTABILIDADE '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0337                           '
+                   MOVE 'OPERAÇÃO CANCELADA POR PORTABILIDADE '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0338                           '
+                   MOVE 'BLOQUEIO NÃO PERMITIDO. CONTRATO EM PROCESSO DE PORTABILIDADE '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0339                           '
+                   MOVE 'TRANSFERÊNCIA NÃO PERMITIDA. CONTRATO EM PROCESSO DE PORTABILIDADE '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0340                           '
+                   MOVE 'DATA HORA DA APROVAÇÃO DA PORTABILIDADE DEVE SER INFORMADA '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0341                           '
+                   MOVE 'DATA DE REFERÊNCIA DO SALDO DEVEDOR DEVE SER INFORMADA '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0342                           '
+                   MOVE 'VALOR DO SALDO DEVEDOR DEVE SER INFORMADO '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0343                           '
+                   MOVE 'DATA HORA DA EFETIVAÇÃO DA PORTABILIDADE DEVE SER INFORMADA '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0344                           '
+                   MOVE 'SITUAÇÃO DA EFETIVAÇÃO DA PORTABILIDADE DEVE SER INFORMADA '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0345                           '
+                   MOVE 'DATA HORA DO CANCELAMENTO DA PORTABILIDADE DEVE SER INFORMADA '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0346                           '
+                   MOVE 'MOTIVO DO CANCELAMENTO DA PORTABILIDADE DEVE SER INFORMADO '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0347                           '
+                   MOVE 'DATA HORA DA RETENÇÃO DA PORTABILIDADE DO CONTRATO DEVE SER INFORMADA '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0348                           '
+                   MOVE 'MOTIVO DA RETENÇÃO DA PORTABILIDADE DO CONTRATO DEVE SER INFORMADO '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0349                           '
+                   MOVE 'GRUPO SALDO DEVEDOR CONTÁBIL DEVE SER INFORMADO '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0350                           '
+                   MOVE 'EXCLUSÃO NÃO PERMITIDA. CONTRATO EM PROCESSO DE PORTABILIDADE '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0351                           '
+                   MOVE 'FORMATAÇÃO DO CÓDIGO DO CONTRATO INVÁLIDA. NÃO SÃO PERMITIDOS ESPAÇOS EM BRANCO NEM CARACTERES ESPECIAIS TAIS COMO “.”, “/” OU “-“ '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0352                           '
+                   MOVE 'CONTRATO NÃO POSSUI PARCELAS ATIVAS '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0353                           '
+                   MOVE 'NENHUMA OPERAÇÃO DE CISÃO PARCIAL PENDENTE REGISTRADA PARA O SOLICITANTE CONTENDO O INCORPORADOR INFORMADO '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0354                           '
+                   MOVE 'TIPO DE CONTRATO INFORMADO DIFERENTE DO REGISTRADO NA OPERAÇÃO DE CISÃO PARCIAL '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0355                           '
+                   MOVE 'SOMENTE CONTRATO COM SITUAÇÃO IGUAL A “ATIVO” OU “PORTABILIDADE” PODE SER CINDIDO '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0356                           '
+                   MOVE 'CONTRATO INFORMADO NÃO PERTENCE AO TIPO DE CONTRATO INFORMADO NA TAG <TPCONTRTO> '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0357                           '
+                   MOVE 'PARTICIPANTE SOLICITANTE NÃO POSSUI PERMISSÃO PARA SOLICITAR A CISÃO PARCIAL DESTE CONTRATO '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0358                           '
+                   MOVE 'EVENTO NÃO EXISTE '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0359                           '
+                   MOVE 'EVENTO JÁ CANCELADO '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0360                           '
+                   MOVE 'EVENTO JÁ CONFIRMADO '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0361                           '
+                   MOVE 'PARTICIPANTE INFORMADO NÃO É O INCORPORADOR DO EVENTO INFORMADO '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0362                           '
+                   MOVE 'PARA CISÃO PARCIAL COM TIPO IGUAL “POR CARTEIRA” NÃO É PERMITIDO INFORMAR A LISTA DE CONTRATOS '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0363                           '
+                   MOVE 'SOLICITANTE NÃO É PROPRIETÁRIO ATUAL DE TODAS AS PARCELAS DO CONTRATO '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0364                           '
+                   MOVE 'CONTRATO BLOQUEADO. '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0365                           '
+                   MOVE 'PARA CISÃO PARCIAL COM TIPO IGUAL “POR LISTA DE CONTRATOS” A LISTA DE CONTRATOS DEVE SER INFORMADA '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0366                           '
+                   MOVE 'A QUANTIDADE CONTRATOS NA OPERAÇÃO DE CISÃO DEVE SER INFORMADA. '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0367                           '
+                   MOVE 'QUANTIDADE DE CONTRATOS NA CISÃO DIVERGENTE '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0368                           '
+                   MOVE 'CONTRATO INFORMADO NÃO É UM CONTRATO CONSIGNADO COM ENTE CONSIGNANTE INSS '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0369                           '
+                   MOVE 'SOMENTE O TITULAR ATUAL DE UM CONTRATO OU SEU INCORPORADOR OU O GESTOR ATUAL PODE SOLICITAR A TROCA DE TITULARIDADE INSS '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0370                           '
+                   MOVE 'TROCA DE TITULARIDADE NÃO PERMITIDA. SITUAÇÃO DA GARANTIA NO AGENTE VALIDADOR NÃO PERMITE TROCA DE TITULARIDADE. '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0371                           '
+                   MOVE 'PARTICIPANTE INFORMADO NÃO É O NOVO TITULAR DO EVENTO INFORMADO '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0372                           '
+                   MOVE 'ADITAMENTO DE CONTRATO COM TROCA DE TITULARIDADE PENDENTE NÃO É PERMITIDO. '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0373                           '
+                   MOVE 'PARA LIQUIDAÇÃO FINANCEIRA NA CÂMARA TOTAL OU PARCIAL O VALOR FINANCEIRO DA OPERAÇÃO DEVE SER INFORMADO '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0374                           '
+                   MOVE 'PARA LIQUIDAÇÃO FINANCEIRA NÃO REALIZADA PELA CÂMARA OU PARCIAL A QUALIFICAÇÃO DE CESSÃO SEM FINANCEIRO DEVE SER INFORMADA '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0375                           '
+                   MOVE 'PARA LIQUIDAÇÃO FINANCEIRA NÃO REALIZADA PELA CÂMARA OU PARCIAL O VALOR DO MONTANTE NÃO FINANCEIRO DA OPERAÇÃO DEVE SER INFORMADO '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0376                           '
+                   MOVE 'PARA LIQUIDAÇÃO FINANCEIRA NÃO REALIZADA PELA CÂMARA O VALOR FINANCEIRO DA OPERAÇÃO NÃO DEVE SER INFORMADO '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0377                           '
+                   MOVE 'PARA LIQUIDAÇÃO FINANCEIRA NA CÂMARA A QUALIFICAÇÃO DE CESSÃO SEM FINANCEIRO NÃO DEVE SER INFORMADA '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0378                           '
+                   MOVE 'PARA LIQUIDAÇÃO FINANCEIRA NA CÂMARA O VALOR DO MONTANTE NÃO FINANCEIRO DA OPERAÇÃO NÃO DEVE SER INFORMADO '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0379                           '
+                   MOVE 'NÚMERO DO CONTRATO ORIGINADOR DEVE SER INFORMADO SOMENTE PARA CONTRATOS ORIGINADOS DE UMA RENEGOCIAÇÃO (“INDICADOR DE CONTRATO RENEGOCIADO” IGUAL A “S”) '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0380                           '
+                   MOVE 'O DNA DO CONTRATO ORIGINADOR (GRUPO IDENTIFICADOR CHAVE DO CONTRATO ORIGINADOR) DEVE SER INFORMADO SOMENTE PARA CONTRATOS ORIGINADOS DE UMA RENEGOCIAÇÃO (“INDICADOR DE CONTRATO RENEGOCIADO” IGUAL A “S”) '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0381                           '
+                   MOVE 'O GRUPO “JUROS DE MORA CONTRATO” DEVE SER INFORMADO QUANDO O INDICADOR DE COBRANÇA DE JUROS DE MORA FOR PREENCHIDO IGUAL A “S” '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0382                           '
+                   MOVE 'O GRUPO “MULTA CONTRATO” DEVE SER INFORMADO QUANDO O INDICADOR DE JUROS DE COBRANÇA DE MULTA FOR PREENCHIDO IGUAL A “S” '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0383                           '
+                   MOVE 'PARA COBRANÇA DE JUROS DE MORA COM VALOR FIXO O “VALOR DE JUROS DE MORA” DEVE SER INFORMADO. '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0384                           '
+                   MOVE 'INFORMAÇÃO INVÁLIDA PARA COBRANÇA DE JUROS DE MORA COM VALOR FIXO '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0385                           '
+                   MOVE 'PARA COBRANÇA DE JUROS DE MORA COM VALOR CALCULADO O “TIPO DE CÁLCULO DE JUROS DE MORA” DEVE SER INFORMADO. '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0386                           '
+                   MOVE 'INFORMAÇÃO INVÁLIDA PARA COBRANÇA DE JUROS DE MORA COM VALOR CALCULADO '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0387                           '
+                   MOVE 'PARA O TIPO DE CÁLCULO DE JUROS DE MORA INFORMADO A FORMA DE CÁLCULO DE JUROS DE MORA É OBRIGATÓRIA '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0388                           '
+                   MOVE 'PARA O TIPO DE CÁLCULO DE JUROS DE MORA INFORMADO A TAXA DE JUROS DE MORA É OBRIGATÓRIA '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0389                           '
+                   MOVE 'PARA O TIPO DE CÁLCULO DE JUROS DE MORA INFORMADO A PERIODICIDADE DA TAXA DE JUROS DE MORA É OBRIGATÓRIA '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0390                           '
+                   MOVE 'INFORMAÇÃO INVÁLIDA PARA TIPO DE CÁLCULO DE JUROS DE MORA IGUAL A “PERCENTUAL” '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0391                           '
+                   MOVE 'PARA O TIPO DE CÁLCULO DE JUROS DE MORA INFORMADO O INDEXADOR DE JUROS DE MORA É OBRIGATÓRIO '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0392                           '
+                   MOVE 'PARA O TIPO DE CÁLCULO DE JUROS DE MORA INFORMADO O PERCENTUAL SOBRE O INDEXADOR DE JUROS DE MORA É OBRIGATÓRIO '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0393                           '
+                   MOVE 'INFORMAÇÃO INVÁLIDA PARA TIPO DE CÁLCULO DE JUROS DE MORA IGUAL A “INDEXADOR” '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0394                           '
+                   MOVE 'PARA COBRANÇA DE MULTA COM VALOR FIXO O “VALOR DE MULTA” DEVE SER INFORMADO. '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0395                           '
+                   MOVE 'INFORMAÇÃO INVÁLIDA PARA COBRANÇA DE MULTA COM VALOR FIXO '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0396                           '
+                   MOVE 'PARA COBRANÇA DE MULTA COM VALOR CALCULADO A “BASE DE CÁLCULO DA MULTA” DEVE SER INFORMADA '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0397                           '
+                   MOVE 'PARA COBRANÇA DE MULTA COM VALOR CALCULADO PELO MENOS UM DOS CAMPOS DE CÁLCULO DEVE SER INFORMADO “PERCENTUAL MULTA” OU “INDEXADOR MULTA”” DEVE SER INFORMADA '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0398                           '
+                   MOVE 'INFORMAÇÃO INVÁLIDA PARA COBRANÇA DE JUROS DE MORA COM VALOR CALCULADO '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0399                           '
+                   MOVE 'INFORMAÇÃO INVÁLIDA PARA TIPO DE PARCELA DIFERENTE DE PREJUÍZO '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0400                           '
+                   MOVE 'PARA TIPO DE PARCELA IGUAL A “PREJUÍZO” O VALOR DO SALDO DE PREJUÍZO DA PARCELA DEVE SER INFORMADO '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0401                           '
+                   MOVE 'PARA TIPO DE PARCELA IGUAL A “PREJUÍZO” O VALOR DO SALDO DE PREJUÍZO ORIGINAL DA PARCELA DEVE SER INFORMADO '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0402                           '
+                   MOVE 'PARA SITUAÇÃO DA PARCELA IGUAL A “BAIXADA” O GRUPO PAGAMENTO PARCELA DEVE SER INFORMADO '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0403                           '
+                   MOVE 'PARA INDICADOR DE PARCELA CEDIDA IGUAL A “SIM” A IDENTIFICAÇÃO DO CESSIONÁRIO DEVE SER INFORMADA. '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0404                           '
+                   MOVE 'PARA INDICADOR DE PARCELA CEDIDA IGUAL A “SIM” A SITUAÇÃO DO REPASSE DEVE SER INFORMADA '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0405                           '
+                   MOVE 'DATA DE PAGAMENTO DA PARCELA NÃO PODE SER INFERIOR À DATA DO CONTRATO '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0406                           '
+                   MOVE 'PARA INDICADOR DE LEILÃO IGUAL A “SIM” O “VALOR DO LEILÃO” DEVE SER INFORMADO '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0407                           '
+                   MOVE 'FAIXA DE PARCELA DUPLICADA NO GRUPO DE PARCELAS PAGAS '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0408                           '
+                   MOVE 'GARANTIA DUPLICADA '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0409                           '
+                   MOVE 'PARA TIPO DE GARANTIA IGUAL A “VEÍCULOS” O GRUPO “VEÍCULO” DEVE SER INFORMADO. '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0410                           '
+                   MOVE 'PARA TIPO DE GARANTIA IGUAL A “IMÓVEIS” O GRUPO “IMÓVEL” DEVE SER INFORMADO. '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0411                           '
+                   MOVE 'PARA TIPO DE GARANTIA IGUAL A “AVAL” OU “DEVEDOR SOLIDÁRIO” OU “FIANÇA PF” OU “FIANÇA PJ” O GRUPO “GARANTIA FIDEJUSSÓRIA” DEVE SER INFORMADO '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0412                           '
+                   MOVE 'PARA TIPO DE GARANTIA IGUAL A “EQUIPAMENTOS” O GRUPO “EQUIPAMENTO” DEVE SER INFORMADO '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0413                           '
+                   MOVE 'PARA TIPO DE GARANTIA IGUAL A “MERCADORIAS” O GRUPO “MERCADORIA” DEVE SER INFORMADO '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0414                           '
+                   MOVE 'PARA TIPO DE GARANTIA IGUAL A “INSTRUMENTOS FINANCEIROS” O GRUPO “INSTRUMENTO FINANCEIRO” DEVE SER INFORMADO '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0415                           '
+                   MOVE 'INFORMAÇÃO INVÁLIDA PARA TIPO DE GARANTIA IGUAL A “CESTA” '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0416                           '
+                   MOVE 'INFORMAÇÃO INVÁLIDA PARA TIPO DE CONTRATO IGUAL A “CRÉDITO PESSOAL” '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0417                           '
+                   MOVE 'INFORMAÇÃO INVÁLIDA PARA TIPO DE CONTRATO IGUAL A “CDC OUTROS BENS” '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0418                           '
+                   MOVE 'PARA TIPO DE CONTRATO IGUAL A “CDC OUTROS BENS” DEVE SER INFORMADO PELO MENOS UM BEM FINANCIADO DO TIPO “EQUIPAMENTOS” OU “MERCADORIAS” '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0419                           '
+                   MOVE 'SE INFORMADO O “VALOR DA GARANTIA NA DATA DE REAVALIAÇÃO” A “DATA DE REAVALIAÇÃO” '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0420                           '
+                   MOVE 'PARA TIPO DE GARANTIA IGUAL A “AVAL” OU “DEVEDOR SOLIDÁRIO” OU “FIANÇA PF” OU “FIANÇA PJ” O VALOR DO “PERCENTUAL DE GARANTIA” DEVE SER INFORMADO '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0421                           '
+                   MOVE 'INFORMAÇÃO INVÁLIDA PARA TIPO DE GARANTIA IGUAL A “AVAL” OU “DEVEDOR SOLIDÁRIO” OU “FIANÇA PF” OU “FIANÇA PJ” O VALOR DO “PERCENTUAL DE GARANTIA” '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0422                           '
+                   MOVE 'INFORMAÇÃO INVÁLIDA PARA TIPO DE GARANTIA IGUAL A “OUTROS” '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0423                           '
+                   MOVE 'PARA TIPO DE GARANTIA IGUAL A “CESTA” A “CLASSIFICAÇÃO DE RISCO CESTA” DEVE SER INFORMADA '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0424                           '
+                   MOVE 'PARA TIPO DE GARANTIA IGUAL A “VEÍCULOS” OU “IMÓVEIS” OU “EQUIPAMENTOS” OU “MERCADORIAS” OU “INSTRUMENTOS FINANCEIROS” OU “CESTA” OU “OUTROS” O “VALOR ORIGINAL DA GARANTIA” DEVE SER INFORMADO. '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0425                           '
+                   MOVE 'INFORMAÇÃO INVÁLIDA PARA TIPO DE GARANTIA IGUAL A “VEÍCULOS” OU “IMÓVEIS” OU “EQUIPAMENTOS” OU “MERCADORIAS” OU “INSTRUMENTOS FINANCEIROS” OU “CESTA” OU “OUTROS” '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0426                           '
+                   MOVE 'INFORMAÇÃO VÁLIDA SOMENTE PARA TIPO DE GARANTIA IGUAL A “CESTA” '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0427                           '
+                   MOVE 'PARA VEÍCULO USADO É OBRIGATÓRIO INFORMAR “NÚMERO DA PLACA”, “UF DO NÚMERO DA PLACA”, “QUILOMETRAGEM” E “RENAVAM” '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0428                           '
+                   MOVE 'ENVIAR SOMENTE O GRUPO CORRESPONDE AO TIPO DE PESSOA GARANTIA FIDEJUSSÓRIA INFORMADO. '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0429                           '
+                   MOVE 'DATA DE VENCIMENTO DO INSTRUMENTO FINANCEIRO DEVE SER MAIOR QUE DATA INICIAL '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0430                           '
+                   MOVE 'A LISTA DE CARACTERÍSTICAS ESPECIAIS DEVE SER INFORMADA PARA CONTRATOS RENEGOCIADOS '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0431                           '
+                   MOVE 'PARA CONTRATOS RENEGOCIADOS SOMENTE UMA DAS INFORMAÇÕES É REQUERIDA “NÚMERO DO CONTRATO ORIGINADOR” OU “DNA DO CONTRATO ORIGINADOR (GRUPO IDENTIFICADOR CHAVE DO CONTRATO ORIGINADOR)” '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0432                           '
+                   MOVE 'NU DE CONTRATO INFORMADO NÃO ESTÁ REGISTRADO NA C3 '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0433                           '
+                   MOVE 'SE “CONTRATO EM PREJUÍZO” INFORMADO IGUAL A “SIM” O TIPO DE TODAS AS PARCELAS DEVE SER IGUAL “3”-PREJUÍZO '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0434                           '
+                   MOVE 'PARA REGISTRAR UM CONTRATO É NECESSÁRIO TER PELO MENOS UMA PARCELA ATIVA '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0435                           '
+                   MOVE 'ADITAMENTO NÃO PERMITIDO. CONTRATO INFORMADO NÃO PERTENCE AO TIPO DE CONTRATO PERMITIDO PARA O ARQUIVO. '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0436                           '
+                   MOVE 'INFORMAÇÃO INVÁLIDA PARA TIPO DE CONTRATO IGUAL A “FINANCIAMENTO DE VEÍCULOS” '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0437                           '
+                   MOVE 'PARA TIPO DE CONTRATO IGUAL A “FINANCIAMENTO DE VEÍCULOS” DEVE SER INFORMADO PELO MENOS UM BEM FINANCIADO DO TIPO “VEÍCULOS” '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0438                           '
+                   MOVE 'SITUAÇÃO ATUAL DO CONTRATO DIFERENTE DE ATIVO. '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0439                           '
+                   MOVE 'ADITAMENTO NÃO PERMITIDO. CONTRATO POSSUI PARCELAS CEDIDAS. '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0440                           '
+                   MOVE 'ADITAMENTO NÃO PERMITIDO. CONTRATO POSSUI PARCELAS BLOQUEADAS. '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0441                           '
+                   MOVE 'ADITAMENTO NÃO PERMITIDO. NOVO CÓDIGO DE CONTRATO ORIGINAL DEVE SER DIFERENTE DO ATUAL '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0442                           '
+                   MOVE 'ADITAMENTO NÃO PERMITIDO. NOVO CÓDIGO DE CONTRATO ORIGINAL PERTENCE A CONTRATO JÁ REGISTRADO NA C3. '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0443                           '
+                   MOVE 'PARA INCLUSÃO DE NOVAS GARANTIAS O NÚMERO DE CONTROLE DA IF DA GARANTIA, O TIPO E SUB TIPO DA GARANTIA DEVEM SER INFORMADOS '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0444                           '
+                   MOVE 'INFORMAÇÃO NÃO PERMITIDA PARA INCLUSÃO DE NOVAS GARANTIAS '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0445                           '
+                   MOVE 'PARA ALTERAÇÃO DE GARANTIAS O NÚMERO ÚNICO DA GARANTIA DEVE SER INFORMADO '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0446                           '
+                   MOVE 'INFORMAÇÃO NÃO PERMITIDA PARA ALTERAÇÃO DE GARANTIAS '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0447                           '
+                   MOVE 'NÚMERO ÚNICO DA GARANTIA INFORMADO NÃO ESTÁ REGISTRADO NA C3 '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0448                           '
+                   MOVE 'NÚMERO ÚNICO DA GARANTIA NÃO PERTENCE AO CONTRATO INFORMADO '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0449                           '
+                   MOVE 'NÚMERO ÚNICO DA GARANTIA INFORMADO NÃO ESTÁ ATIVO NA C3 '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0450                           '
+                   MOVE 'PARA INCLUSÃO DE NOVAS PARCELAS O NÚMERO DE CONTROLE DA IF DA PARCELA, DATA DE VENCIMENTO DA PARCELA, TIPO PARCELA , VALOR DA PARCELA , VALOR DO PRINCIPAL DA PARCELA , VALOR DO PRINCIPAL DA PARCELA ORIGINAL , SITUAÇÃO DA PARCELA E INDICADOR DE PARCELA CEDIDA DEVEM SER INFORMADOS '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0451                           '
+                   MOVE 'INFORMAÇÃO NÃO PERMITIDA PARA INCLUSÃO DE NOVAS PARCELAS '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0452                           '
+                   MOVE 'PARA ALTERAÇÃO DE PARCELAS O NÚMERO ÚNICO DA PARCELA DEVE SER INFORMADO '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0453                           '
+                   MOVE 'INFORMAÇÃO NÃO PERMITIDA PARA ALTERAÇÃO DE PARCELAS '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0454                           '
+                   MOVE 'NÚMERO ÚNICO DA PARCELA INFORMADO NÃO ESTÁ ATIVO NA C3 '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0455                           '
+                   MOVE 'DNA DO CONTRATO ORIGINADOR INFORMADO JÁ ESTÁ REGISTRADO NA C3. PARA CONTATO ORIGINADOR JÁ REGISTRADO NA C3 O NU DO CONTRATO DEVE SER INFORMADO '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0456                           '
+                   MOVE 'ADITAMENTO NÃO PERMITIDO. ORIGINADOR DO CONTRATO ORIGINADOR DEVE SER O MESMO DO CONTRATO SENDO ADITADO OU UM SEU INCORPORADO '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0457                           '
+                   MOVE 'PERCENTUAL DE COOBRIGAÇÃO É OBRIGATÓRIO PARA TIPO DE COOBRIGAÇÃO IGUAL A “0101” OU “0102” OU “0103” OU “0104” '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0458                           '
+                   MOVE 'PERCENTUAL DE RISCO DE COOBRIGAÇÃO É OBRIGATÓRIO PARA TIPO DE COOBRIGAÇÃO IGUAL A “0105” '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0459                           '
+                   MOVE 'QUANTIDADE DE DIAS PARA REPASSE É OBRIGATÓRIO PARA TIPO DE REPASSE IGUAL A “2” '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0460                           '
+                   MOVE 'DIA DO MÊS PARA REPASSE É OBRIGATÓRIO PARA TIPO DE REPASSE IGUAL A “3” '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0461                           '
+                   MOVE 'CRITÉRIO DE SELEÇÃO DE CONTRATOS É OBRIGATÓRIO PARA TIPO DE RESERVA IGUAL A “1” '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0462                           '
+                   MOVE 'LISTA DE CONTRATOS É OBRIGATÓRIO PARA TIPO DE RESERVA IGUAL A “1” '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0463                           '
+                   MOVE 'QUANTIDADE DE DIAS A VENCER É OBRIGATÓRIO PARA TIPO DE VENCIMENTO DAS PARCELAS IGUAL A “1” '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0464                           '
+                   MOVE 'QUANTIDADE DE DIAS VENCIDA É OBRIGATÓRIO PARA TIPO DE VENCIMENTO DAS PARCELAS IGUAL A “2” '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0465                           '
+                   MOVE 'QUANTIDADE DE DIAS A VENCER E VENCIDA SÃO OBRIGATÓRIAS PARA TIPO DE VENCIMENTO DAS PARCELAS IGUAL A “3” '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0466                           '
+                   MOVE 'INFORMAÇÃO INVÁLIDA PARA O TIPO DE VENCIMENTO DE PARCELA INFORMADO '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0467                           '
+                   MOVE 'O VALOR DO PERCENTUAL DA VARIAÇÃO DO VALOR FINANCEIRO DEVE SER INFORMADO '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0468                           '
+                   MOVE 'O TIPO DA VARIAÇÃO DO VALOR FINANCEIRO DEVE SER INFORMADO '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0469                           '
+                   MOVE 'SITUAÇÃO DA RESERVA NÃO PERMITE REGISTRO DE ACEITE '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0470                           '
+                   MOVE 'SOMENTE O CEDENTE PODE REGISTRAR O ACEITE PARA UMA RESERVA COM SITUAÇÃO “PENDENTE DE ACEITE DO CEDENTE” '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0471                           '
+                   MOVE 'SOMENTE O CESSIONÁRIO PODE REGISTRAR O ACEITE PARA UMA RESERVA COM SITUAÇÃO “PENDENTE DE ACEITE DO CESSIONÁRIO” '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0472                           '
+                   MOVE 'O ACEITE DEVE SER REGISTRADO INFORMANDO A QUANTIDADE DE PARCELAS ACEITAS OU QUANTIDADE DE PARCELAS RECUSADAS '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0473                           '
+                   MOVE 'O ACEITE DEVE SER REGISTRADO INFORMANDO APENAS A QUANTIDADE DE PARCELAS ACEITAS OU QUANTIDADE DE PARCELAS RECUSADAS '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0474                           '
+                   MOVE 'A LISTA DE PARCELAS RESERVADAS ACEITAS DEVE SER INFORMADA '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0475                           '
+                   MOVE 'A LISTA DE PARCELAS RESERVADAS RECUSADAS DEVE SER INFORMADA '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0476                           '
+                   MOVE 'A LISTA DE PARCELAS RESERVADAS ACEITAS ESTÁ INCOMPLETA '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0477                           '
+                   MOVE 'A LISTA DE PARCELAS RESERVADAS RECUSADAS ESTÁ INCOMPLETA '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0478                           '
+                   MOVE 'PARCELA NÃO PERTENCE À RESERVA '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0479                           '
+                   MOVE 'RESERVA DE CONTRATOS NÃO ATUALIZADOS NÃO É PERMITIDA '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0480                           '
+                   MOVE 'VALOR FINANCEIRO DA RECOMPRA DEVE SER INFORMADO '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0481                           '
+                   MOVE 'LIQUIDAÇÃO FINANCEIRA DA RECOMPRA NA CÂMARA NÃO ATIVADA '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0482                           '
+                   MOVE 'INFORMAÇÃO NÃO PERMITIDA PARA INDICADOR DE LIQUIDAÇÃO FINANCEIRA IGUAL A “NÃO” '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0483                           '
+                   MOVE 'PARTICIPANTE INFORMADO NÃO FAZ PARTE DA LISTA DE CONFIRMAÇÃO DO EVENTO '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0484                           '
+                   MOVE 'LIQUIDAÇÃO FINANCEIRA DO REPASSE NA CÂMARA NÃO ATIVADA '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0485                           '
+                   MOVE 'VALOR FINANCEIRO DO REPASSE DEVE SER INFORMADO '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0486                           '
+                   MOVE 'A SOLICITAÇÃO DE LIQUIDAÇÃO FINANCEIRA DO REPASSE DEVE SER REALIZADA POR LISTA DE CONTRATOS OU POR LISTA DE PARCELAS. '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0487                           '
+                   MOVE 'CONTRATO NÃO POSSUI PARCELAS COM REPASSE PENDENTE DE SER REALIZADO '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0488                           '
+                   MOVE 'PARTICIPANTE NÃO É O GESTOR ATUAL DA CADEIA ATIVA DA PARCELA '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0489                           '
+                   MOVE 'PARCELA NÃO POSSUI REPASSE PENDENTE '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0490                           '
+                   MOVE 'PARCELA POSSUI OPERAÇÃO PENDENTE '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0491                           '
+                   MOVE 'EVENTO NÃO CONFIRMADO '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0492                           '
+                   MOVE 'INFORMAÇÃO INVÁLIDA PARA EVENTO DE ESTORNO DE LIQUIDAÇÃO DO REPASSE REALIZADO POR CONTRATO '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0493                           '
+                   MOVE 'INFORMAÇÃO INVÁLIDA PARA EVENTO DE ESTORNO DE LIQUIDAÇÃO DO REPASSE REALIZADO POR PARCELA '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0494                           '
+                   MOVE 'EVENTO JÁ ESTORNADO '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0495                           '
+                   MOVE 'CONTRATO NÃO FAZ PARTE DA OPERAÇÃO DE LIQUIDAÇÃO DO REPASSE INFORMADA '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0496                           '
+                   MOVE 'PARCELA NÃO FAZ PARTE DA OPERAÇÃO DE LIQUIDAÇÃO DO REPASSE INFORMADA '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0497                           '
+                   MOVE 'SITUAÇÃO DO CONTRATO NA OPERAÇÃO DE LIQUIDAÇÃO DO REPASSE NÃO PERMITE ESTORNO '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0498                           '
+                   MOVE 'SITUAÇÃO DA PARCELA NA OPERAÇÃO DE LIQUIDAÇÃO DO REPASSE NÃO PERMITE ESTORNO '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0499                           '
+                   MOVE 'ESTORNO PERMITIDO APENAS PARA O SOLICITANTE DO EVENTO A ESTORNAR OU SEU INCORPORADOR '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0500                           '
+                   MOVE 'SITUAÇÃO DA PARCELA NÃO PERMITE INFORME DE BAIXA '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0501                           '
+                   MOVE 'PARCELA INEXISTENTE '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0502                           '
+                   MOVE 'OS DADOS DE ALTERAÇÃO DA PARCELA DEVEM SER INFORMADOS '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0503                           '
+                   MOVE 'INFORMAÇÃO INVÁLIDA PARA O TIPO DE BAIXA INFORMADO. '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0504                           '
+                   MOVE 'NOVO VALOR DO SALDO DE PREJUÍZO DEVE SER INFORMADO '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0505                           '
+                   MOVE 'PARCELA NÃO FAZ PARTE DA OPERAÇÃO DE BAIXA DE PARCELA INFORMADA '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0506                           '
+                   MOVE 'SITUAÇÃO DA PARCELA NA OPERAÇÃO DE BAIXA DE PARCELA NÃO PERMITE ESTORNO '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0507                           '
+                   MOVE 'SITUAÇÃO DA PARCELA NÃO PERMITE INFORME DE NÃO BAIXA '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0508                           '
+                   MOVE 'CONTRATO COM CESSÃO ATIVA QUE NÃO PERMITE ALTERAÇÃO DE DADOS CADASTRAIS. A RECOMPRA DEVE SER EFETUADA. '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0509                           '
+                   MOVE 'CONTRATO JÁ TRANSFERIDO PRA PREJUÍZO '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0510                           '
+                   MOVE 'GRUPO DE IDENTIFICAÇÃO DO NOVO CONTRATO É OBRIGATÓRIO PARA TIPO DE BAIXA IGUAL A “0305”(RENEGOCIADA) OU “0307” (SAÍDA POR ALTERAÇÃO DE CÓDIGO DE CONTRATO OU MODALIDADE/SUBMODALIDADE) OU “0313”(SAÍDA POR ASSUNÇÃO DE DÍVIDA) '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0511                           '
+                   MOVE 'SOMENTE CONTRATOS REGISTRADOS ANTES DA IMPLANTAÇÃO DA REGISTRADORA E QUE AINDA NÃO TIVERAM OS REGISTROS COMPLEMENTADOS PODEM SER ATUALIZADOS '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0512                           '
+                   MOVE 'INFORMAÇÃO OBRIGATÓRIA PARA O “TIPO MOTIVO ALTERAÇÃO DE DADOS CADASTRAIS” NÃO INFORMADA '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0513                           '
+                   MOVE 'INFORMAÇÃO INVÁLIDA PARA O “TIPO MOTIVO ALTERAÇÃO DE DADOS CADASTRAIS” INFORMADO '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0514                           '
+                   MOVE 'INTEGRAÇÃO DDA NÃO ATIVADA '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0515                           '
+                   MOVE 'O NÚMERO DA LINHA DIGITÁVEL DEVE SER INFORMADO '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0516                           '
+                   MOVE 'PELO MENOS UMA INFORMAÇÃO DE ATUALIZAÇÃO DE BOLETO DEVE SER INFORMADA '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0517                           '
+                   MOVE 'PARA "TIPO LEIAUTE CONCILIAÇÃO SCR" IGUAL A “REDUZIDO” O GRUPO DE INFORMAÇÕES REDUZIDO DEVE SER INFORMADO '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0518                           '
+                   MOVE 'PARA "TIPO LEIAUTE CONCILIAÇÃO SCR" IGUAL A “REDUZIDO” SOMENTE O GRUPO DE INFORMAÇÕES REDUZIDO PODE SER INFORMADO '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0519                           '
+                   MOVE 'PARA "TIPO LEIAUTE CONCILIAÇÃO SCR" IGUAL A “COMPLETO” O GRUPO DE INFORMAÇÕES COMPLETO DEVE SER INFORMADO '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0520                           '
+                   MOVE 'PARA "TIPO LEIAUTE CONCILIAÇÃO SCR" IGUAL A “COMPLETO” SOMENTE O GRUPO DE INFORMAÇÕES COMPLETO PODE SER INFORMADO '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0521                           '
+                   MOVE 'PARA "TIPO LEIAUTE CONCILIAÇÃO SCR" IGUAL A “REDUZIDO” O TOTAL DE CONTRATOS DEVE SER INFORMADO '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0522                           '
+                   MOVE 'PARA "TIPO LEIAUTE CONCILIAÇÃO SCR" IGUAL A “REDUZIDO” SOMENTE O TOTAL DE CONTRATOS DEVE SER INFORMADO '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0523                           '
+                   MOVE 'PARA "TIPO LEIAUTE CONCILIAÇÃO SCR" IGUAL A “COMPLETO” O TOTAL DE CLIENTES DEVE SER INFORMADO '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0524                           '
+                   MOVE 'PARA "TIPO LEIAUTE CONCILIAÇÃO SCR" IGUAL A “COMPLETO” SOMENTE O TOTAL DE CLIENTES DEVE SER INFORMADO '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0525                           '
+                   MOVE 'UMA REMESSA VIGENTE NÃO PODE SER SUBSTITUÍDA. SOLICITAR O CANCELAMENTO DA REMESSA ANTERIOR. '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0526                           '
+                   MOVE 'NÚMERO DE CONCILIAÇÃO INFORMADO NÃO ENCONTRADO '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0527                           '
+                   MOVE 'REMESSA PARA CONCILIAÇÃO SCR JÁ CANCELADA '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0528                           '
+                   MOVE 'REMESSA INCOMPLETA. CANCELAMENTO NÃO PERMITIDO '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0529                           '
+                   MOVE 'PARTICIPANTE INFORMADO NÃO É O PROPRIETÁRIO DA REMESSA '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0530                           '
+                   MOVE 'NÃO EXISTE VÍNCULO ATIVO ENTRE O ORIGINADOR DO CONTRATO E O NOVO PARTICIPANTE GESTOR. '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0531                           '
+                   MOVE 'SE “CONTRATO EM PREJUÍZO” INFORMADO IGUAL A “NÃO” O TIPO DE TODAS AS PARCELAS DEVE SER DIFERENTE DE “3”-PREJUÍZO '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0532                           '
+                   MOVE 'PARA SITUAÇÃO DE PARCELA SOMENTE OS DOMÍNIOS “0”(ATIVA”) E “2”(BAIXADA) SÃO PERMITIDOS PARA USO DOS PARTICIPANTES DA C3. '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0533                           '
+                   MOVE 'GRUPO DE DADOS DE GARANTIA INVÁLIDO PARA O TIPO INFORMADO. '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0534                           '
+                   MOVE 'NENHUMA PARCELA ENCONTRADA PARA OS CRITÉRIOS DE SELEÇÃO INFORMADOS. '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0535                           '
+                   MOVE 'PARA RESERVA REGISTRADA COM TROCA DE GESTÃO IGUAL A “S” O “INDICADOR DE ALTERAÇÃO DE DADOS CADASTRAIS” DEVER SER INFORMADO IGUAL A “S”. '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0536                           '
+                   MOVE 'QUANTIDADE DE CONTRATOS NA REMESSA ULTRAPASSA A INFORMADA NA TAG <TOTALCONTRTO> '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0537                           '
+                   MOVE 'QUANTIDADE DE CLIENTES NA REMESSA ULTRAPASSA A INFORMADA NA TAG <TOTALCLI> '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0538                           '
+                   MOVE 'FORMA DE PAGAMENTO EXCLUSIVA PARA CONTRATO DE CRÉDITO CONSIGNADO '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0539                           '
+                   MOVE 'FORMA DE PAGAMENTO INVÁLIDA PARA CONTRATO DE CRÉDITO CONSIGNADO '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0540                           '
+                   MOVE 'TIPO DE AÇÃO PARCELA IGUAL A “3”- ESTORNO DE PARCELA BAIXADA POR VENCIMENTO É PERMITIDO APENAS PARA ATUALIZAÇÃO DE DADOS CADASTRAIS TIPO MOTIVO ALTERAÇÃO IGUAL A “1” E PARA PARCELAS BAIXADAS AUTOMATICAMENTE POR VENCIMENTO '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0541                           '
+                   MOVE 'PARA ESTORNO DE PARCELA BAIXADA POR VENCIMENTO O NÚMERO ÚNICO DA PARCELA DEVE SER INFORMADO '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0542                           '
+                   MOVE 'INFORMAÇÃO NÃO PERMITIDA PARA ESTORNO DE PARCELA BAIXADA POR VENCIMENTO. PARA ESTORNO DE PARCELA BAIXADA POR VENCIMENTO INFORME APENAS O NUPARCL '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0543                           '
+                   MOVE 'PARA ESTORNO DE PARCELA BAIXADA POR VENCIMENTO A SITUAÇÃO DA PARCELA INFORMADA DEVE SER IGUAL A “5”-BAIXADA POR VENCIMENTO '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0544                           '
+                   MOVE 'PARA COMPLEMENTO DE DADOS DE CONTRATO NENHUMA INFORMAÇÃO REGISTRADA PODERÁ SER ALTERADA. '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0545                           '
+                   MOVE 'CONTRATOS DE CRÉDITO CONSIGNADO NÃO PERMITEM REGISTRO DE GARANTIA '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0546                           '
+                   MOVE 'INFORMAÇÃO NÃO PERMITIDA PARA O TIPO DE CONTRATO INFORMADO '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0547                           '
+                   MOVE 'COMPLEMENTO DE DADOS DE PESSOA JURÍDICA NÃO É PERMITIDO PARA O PRODUTO CDC OUTROS BENS. '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0548                           '
+                   MOVE 'PARA COMPLEMENTO DE DADOS DO CONTRATO O GRUPO “DADOS BÁSICOS DO CONTRATO” DEVE SER ENVIADO '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0549                           '
+                   MOVE 'RESERVA COM DIVERGÊNCIA PARA O “INDICADOR DE CONTRATOS EM PREJUÍZO”. TODOS OS CONTRATOS DEVEM ESTAR “INDICADOR DE CONTRATOS EM PREJUÍZO” IGUAL A “SIM” OU TODOS OS CONTRATOS DEVEM ESTAR “INDICADOR DE CONTRATOS EM PREJUÍZO” IGUAL A “NÃO”. '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0550                           '
+                   MOVE 'PARA RESERVA DE CONTRATOS QUE NÃO ESTÃO EM SITUAÇÃO DE PREJUÍZO A LISTA DE PARCELAS É OBRIGATÓRIA. '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0551                           '
+                   MOVE 'NENHUMA PARCELA DESSE CONTRATO FOI ACEITA PARA RESERVA '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0552                           '
+                   MOVE 'NÚMERO ÚNICO DA PARCELA INFORMADO NÃO ESTÁ REGISTRADO NA C3 '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0553                           '
+                   MOVE 'O VALOR RENEGOCIADO É OBRIGATÓRIO PARA O TIPO DE BAIXA DE CONTRATO INFORMADO '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0554                           '
+                   MOVE 'O TIPO DO CLIENTE É OBRIGATÓRIO PARA O TIPO DE BAIXA DE CONTRATO INFORMADO '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0555                           '
+                   MOVE 'O CNPJ/PCF DO CLIENTE É OBRIGATÓRIO PARA O TIPO DE BAIXA DE CONTRATO INFORMADO '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0556                           '
+                   MOVE 'O VALOR DA DÍVDA É OBRIGATÓRIO PARA O TIPO DE BAIXA DE CONTRATO INFORMADO '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0557                           '
+                   MOVE 'INFORMAÇÃO INVÁLIDA PARA O TIPO DE BAIXA DE CONTRATO INFORMADO '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0558                           '
+                   MOVE 'TROCA DE GESTÃO COM TROCA DE ORIGINAÇÃO NÃO PERMITIDA. JÁ EXISTE UM CONTRATO REGISTRADO PARA O NOVO GESTOR COM O MESMO DNA (CÓDIGO DO CONTRATO ORIGINAL, CNPJ BASE DA IF ORIGINADORA DO CONTRATO, TIPO DO CLIENTE, CNPJ OU CPF DO CLIENTE TOMADOR DO CRÉDITO E TIPO DO CONTRATO) '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0559                           '
+                   MOVE 'PARCELA EM OPERAÇÃO DE TROCA DE GESTÃO '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0560                           '
+                   MOVE 'EXCLUSÃO NÃO PERMITIDA. CONTRATO SÓ PODE SER EXCLUÍDO PELO SEU ORIGINADOR OU SEU INCORPORADOR. '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0561                           '
+                   MOVE 'EXCLUSÃO NÃO PERMITIDA. TODAS AS PARCELAS DO CONTRATO DEVEM ESTAR COM SITUAÇÃO IGUAL A LIVRE. '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0562                           '
+                   MOVE 'INCLUSÃO NÃO PERMITIDA. JÁ EXISTE UM CONTRATO REGISTRADO COM O MESMO DNA (CÓDIGO DO CONTRATO ORIGINAL, CNPJ BASE DA IF ORIGINADORA DO CONTRATO, TIPO DO CLIENTE, CNPJ OU CPF DO CLIENTE TOMADOR DO CRÉDITO E TIPO DO CONTRATO) COM SITUAÇÃO “EXCLUÍDO” E CEDIDO OU TRANSFERIDO DE POSIÇÃO NA DATA DA EXCLUSÃO. A EXCLUSÃO DEVE SER CANCELADA. '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0563                           '
+                   MOVE 'SITUAÇÃO ATUAL DO CONTRATO DIFERENTE DE EXCLUÍDO. SOMENTE CONTRATO EXCLUÍDO PODE TER O PEDIDO DE CANCELAMENTO DE EXCLUSÃO ACEITO '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0564                           '
+                   MOVE 'EXCLUSÃO NÃO PERMITIDA. EXCLUSÃO PERMITIDA APENAS PARA CONTRATOS CEDIDOS EM CADEIA SIMPLES. '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0565                           '
+                   MOVE 'EXCLUSÃO NÃO PERMITIDA. CONTRATO CEDIDO COM COOBRIGAÇÃO NÃO PODE SER EXCLUÍDO. '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0566                           '
+                   MOVE 'EXCLUSÃO NÃO PERMITIDA. CONTRATO CEDIDO COM TROCA DE GESTÃO NÃO PODE SER EXCLUÍDO. '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0567                           '
+                   MOVE 'EXCLUSÃO NÃO PERMITIDA. CONTRATO CEDIDO PARCIALMENTE. EXCLUSÃO PERMITIDA APENAS PARA CONTRATOS CEDIDOS INTEGRALMENTE. '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0568                           '
+                   MOVE 'EXCLUSÃO NÃO PERMITIDA. SE CONTRATO CEDIDO SOMENTE O GESTOR ATUAL OU O CESSIONÁRIO PODEM SOLICITAR A EXCLUSÃO. '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0569                           '
+                   MOVE 'EXCLUSÃO NÃO PERMITIDA. EXCLUSÃO PERMITIDA APENAS PARA CONTRATOS TRANSFERIDOS PARA UM ÚNICO BENEFICIÁRIO. '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0570                           '
+                   MOVE 'EXCLUSÃO NÃO PERMITIDA. CONTRATO TRANSFERIDO DE POSIÇÃO COM TROCA DE GESTÃO NÃO PODE SER EXCLUÍDO. '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0571                           '
+                   MOVE 'EXCLUSÃO NÃO PERMITIDA. CONTRATO TRANSFERIDO PARCIALMENTE. EXCLUSÃO PERMITIDA APENAS PARA CONTRATOS TRANSFERIDOS INTEGRALMENTE. '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0572                           '
+                   MOVE 'EXCLUSÃO NÃO PERMITIDA. SE CONTRATO TRANSFERIDO SOMENTE O GESTOR ATUAL OU O BENEFICIÁRIO PODEM SOLICITAR A EXCLUSÃO. '
+						                TO WCDE-MENSAGEM
+               WHEN 'ECCC0999                           '
+                   MOVE 'ERRO INESPERADO '
+						                TO WCDE-MENSAGEM

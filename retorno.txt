@@ -1,0 +1,453 @@
+CNPJ_CPF inválido 
+Conteúdo não pertence ao domínio do campo 
+Campo de preenchimento obrigatório 
+O processamento não poderá ser realizado conforme a grade horária estabelecida 
+Data inválida (vale para “Data da Parcela”, “Data da Operação” e “Data da Ano e Mês Competência do primeiro Desconto”) 
+Campo não está preenchido corretamente 
+Valor informado deve ser maior que zero 
+A data de referência informada é diferente da data de referência do sistema 
+Nome de Arquivo já registrado 
+Nome de Arquivo inválido no XML 
+Participante Administrado não é administrado pelo Participante Principal 
+Contrato duplicado – verifique o NumCtrlIFContrto ou a chave do contrato 
+Parcela duplicada – verifique o NumCtrlIFParcl ou a chave da parcela 
+Exclusão recusada – Contrato não identificado 
+Arquivo contêm quantidade de registros maior que o permitido 
+Participante inativo ou inexistente 
+Tag ou grupo inválido para o tipo de contrato informado 
+Data da parcela não pode ser inferior à data do contrato 
+CNPJBase_Ced e CNPJBase_Ces estão iguais ao Participante Administrado 
+Parcela não pode ser informada quando a baixa por liquidação não é parcial 
+Parcela não pertence ao contrato 
+Contrato inexistente 
+Data de vencimento da parcela não compatível com esta operação 
+Parcela em operação de baixa por liquidação antecipada 
+Número de controle deve ser único 
+Participante não está em pelo menos uma cadeia ativa da(s) parcela(s) 
+Contrato possui parcelas em operação pendente de aceite 
+Não há parcelas a liquidar no contrato 
+Participante não está na lista de aceitação da operação 
+Operação inexistente 
+Operação original não pode ser cancelada porque já está finalizada 
+Contrato já informado na reserva 
+Parcela já informada na reserva 
+Quantidade de contratos na reserva ultrapassa a informada na tag <QtdContrtoRes> 
+Reserva inexistente 
+Contrato bloqueado para esta operação 
+Reserva ainda pendente de contraparte 
+Cancelamento permitido somente ao solicitante da requisição 
+Aditamento não permitido para o Participante administrado informado 
+Reserva já informada 
+Baixa por liquidação antecipada já finalizada 
+Aceite de baixa por liquidação antecipada já informado 
+Recompra já finalizada 
+Aceite para recompra já informada 
+Inclusão de contratos permitida somente para a Insituição Originadora 
+Data de contratação deve ser menor ou igual a data do sistema 
+Campo não deve ser preenchido para o tipo de contrato informado 
+Informação em duplicidade 
+Exclusão recusada – Contrato em cadeia 
+Exclusão recusada – Parcelas do contrato em operação corrente 
+Data da parcela deve ser maior que à data corrente 
+Parcela já baixada 
+Parcela em operação de recompra 
+Parcela em operação de reserva 
+Parcela em operação de cessão 
+Data do contrato maior que a data da reserva 
+Data da operação de reserva menor que a data do contrato 
+Data da operação de reserva deve ser menor ou igual a data do sistema 
+Cedente deve ser o solicitante da reserva 
+Divergência em relação a valor previamente informado 
+Chave identificadora da reserva deve ser única 
+Operação cancelada 
+Operação finalizada 
+Cessionário deve ser o solicitante da reserva 
+Chassi em uso por outro Contrato 
+Parcela não pertence ao cedente 
+NUParcl não corresponde à chave da parcela (data de vencimento + valor) 
+Parcela bloqueada por operação da Fase I 
+Contrato excluído 
+Informação divergente do que consta no contrato original 
+Reserva não finalizada 
+Cessão já foi finalizada 
+Contrato não pode ser aditado neste momento porque há parcelas cedidas 
+Chassi não pertence ao contrato 
+Reserva já cancelada 
+Cessionário já pertence à cadeia ativa da parcela 
+Reserva em operação de cessão 
+Contrato não existe ou está bloqueado para aditamento ou não foi emitido pelo participante. 
+Parcela baixada não pode ser excluída 
+Chassi já cadastrado 
+Parcela não pode ser informada quando a recompra é total 
+Pelo menos uma parcela deverá ser informada 
+Reserva já cedida 
+Solicitação inclui recompra para frente e para trás, simultaneamente 
+Parcela já encontra-se na posição do solicitante 
+Solicitante não pode recomprar parcela 
+Participante não pode aditar o contrato 
+O solicitante não é o originador do contrato 
+Não existe cadeia para a parcela 
+O primeiro elo da cadeia não é o solicitante do aditamento 
+O solicitante do aditamento não é o solicitante da recompra 
+O solicitante do aditamento não é o originador e o contrato está como ativo 
+O originador não é participante e não é o primeiro elo da cadeia 
+A reserva foi recusada por não haver nenhum contrato elegível 
+Valor deve ser maior que zero 
+Obrigatório informar o banco liquidante em caso de liquidação pela CIP 
+Valor deve ser maior que 0 e menor ou igual a 100, com até 2 decimais 
+TpPartResponsTarCtrapart e PercTar são obrigatórias caso pelo uma delas seja informada. 
+Deve ser igual à data de referência 
+Deve ser menor ou igual à data de referência 
+Banco liquidante não cadastrado para este participante 
+Banco liquidante não está ativo na C3 
+Liquidação externa à CIP não permitida 
+Cancelamento em andamento 
+Cancelamento não executado: liquidação em andamento 
+Cancelamento não executado: liquidação concluída 
+Operação de Cessão não se encontra mais pendente de liquidação financeira 
+Operação não permitida: reserva em processamento 
+Operação não permitida: cessão divergente 
+Operação não permitida: cessão em liquidação 
+Banco Liquidante inativo ou inexistente com participante do C3 
+Participante não aderiu a esta funcionalidade 
+Participante não autorizou bloqueio/desbloqueio de ativos 
+Um mesmo contrato não pode ser repetido no arquivo 
+Contrato ou parcelas bloqueadas 
+Contrato não possui nenhuma Parcela a vencer 
+Todas as parcelas do contrato devem estar na posição da IF 
+Contrato originado por outra IF 
+Contrato possui parcela em Reserva ou em Negociação 
+Participante não autorizado a bloquear/desbloquear ou transferir/devolver por parcela 
+Participante Administrado diferente do Beneficiário 
+Contrato não possui parcelas bloqueadas 
+Parcela não está bloqueada 
+Contrato/Parcela bloqueado para outro beneficiário 
+Identificador de lote inexistente 
+Todas as parcelas do contrato devem estar bloqueadas para o Beneficiário 
+Parcela Vencida 
+Contrato/Parcela só pode ser transferido/devolvido para o beneficiador original 
+Sistema não habilitado a transferir toda a carteira 
+Contrato/Parcela não está bloqueado em favor deste Participante 
+Contrato/Parcela só pode ser transferido para o beneficiário do bloqueio 
+Contrato/Parcela não está na posição do participante 
+Participante não cadastrado como Beneficiário 
+Participante não cadastrado como Beneficiador 
+Quantidade de Parcelas Originalmente Contratada é obrigatório para este Ente 
+Contrato com a validação da garantia inválida 
+Ano e mês da competência do primeiro Desconto é obrigatório para este Ente 
+Número do Contrato do Ente Consignante é obrigatório para este Ente 
+Ao menos uma tag deve ser preenchida para o grupo 
+Número do Benefício no Ente Consignante é obrigatório para este Ente 
+Grupo de consignado é obrigatório para este Ente 
+Quantidade de parcelas tem que ser maior ou igual ao número de parcelas registradas no C3 
+Ano e Mês Competência do primeiro Desconto deve ser maior ou igual ao ano e mês da data do contrato 
+NU garantia não cadastrado 
+Contrato sob monitoração não pode ser solicitado 
+Contrato só pode ser alterado pelo originador ou seu incorporador 
+Contrato não submetido à validação do Agente Validador 
+Contrato não permitido por não possuir todas as garantias válidas 
+Contrato sob monitoração não pode ser aditado 
+Grupo inválido para o agente validador 
+Valor divergente com o registrado na CIP 
+Agente validador inválido 
+Número da matrícula no Ente consignante não permitido para este Ente 
+Grupo Consignado não dever ser preenchido para este tipo de contrato 
+Contrato aguardando a validação do Agente Validador 
+Operação não permitida para garantia cancelada 
+Ao menos um chassi deve estar ativo 
+Cancelamento de monitoração não permitido para contrato não monitorado 
+Não é permitido a exclusão de todas as parcelas do contrato 
+Não é permitido a exclusão de todos os chassis do contrato 
+Não é permitido a exclusão de todos os chassis e de todas as parcelas do contrato 
+Ano e mês da competência do primeiro desconto deve ser menor ou igual ao ano e mês da data última parcela informada no contrato 
+Crivo no SNG inválido 
+Aditamento não permitido: grupo de inclusão de parcelas deve ser informado para Contratos com situação Baixado na C3 
+Exclusão não permitida. Contrato transferido ou devolvido para posição do beneficiário/beneficiador. 
+Beneficiador não pode ser igual ao Beneficiário 
+Participante com situação igual a suspenso. 
+Participante informado é o gestor atual do contrato 
+Participante não participa da cadeia de todas as parcelas ativas 
+Contrato possui parcelas ativas na posição do gestor atual 
+Não é permitido realizar a troca de gestão de contratos cedidos sem coobrigação 
+Não é permitido realizar a troca de gestão de contratos cedidos com coobrigação 
+Troca de gestão não existe 
+Troca de gestão já confirmada 
+Participante não faz parte da lista de confirmação de troca de gestão 
+Data de contratação do contrato deve ser menor que data em que a Instituição Originadora entrou em liquidação 
+Participante não é o gestor atual do contrato 
+Contrato com troca de gestão Pendente 
+Cedente não é o Gestor Atual do Contrato 
+Não é permitida reserva parcial com troca de gestão para um contrato 
+Reserva não permitida. Para reserva com troca de gestão indicador de coobrigação deve ser informado igual a S/Sim 
+Reserva não permitida. Para reserva com troca de gestão indicador de coobrigação deve ser informado igual a N/Não 
+Bloqueio de contratos permitido somente para a Instituição Originadora ou seu Incorporador 
+Beneficiador informado não é o Beneficiador original do bloqueio do contrato ou seu Incorporador 
+Beneficiário informado não é o Beneficiário original do bloqueio do contrato ou seu Incorporador 
+Beneficiador não é o Gestor Atual do Contrato 
+Contrato/Parcela não pertence ao Beneficiador 
+Parcela não pertence ao Beneficiador 
+Módulo de gestão de contratos não ativado para o sistema 
+Módulo de gestão de contratos não ativado para o participante 
+Período informado ultrapassa o permitido no sistema 
+Campo obrigatório quando o tipo de solicitação igual a Analítico 
+As tags de inicio e fim devem estar preenchidas 
+Campo obrigatório quando o Tipo de Solicitação igual a Analítico 
+CPF_CNPJ não cadastrado na C3 
+O valor deve ser informado apenas para Pessoa Jurídica 
+O campo dever ser preenchido apenas para Pessoa Jurídica 
+Dígito verificador não confere 
+Inclusão não permitida, CNPJ ou CPF já cadastrado na C3 
+Data de vencimento do título divergente da data de vencimento da parcela 
+Tipo de Cliente informado divergente do permitido 
+Subtipo de Garantia informado não corresponde ao Tipo de garantia 
+Data de vencimento da primeira parcela deve ser maior que a data do contrato 
+Data de vencimento deve ser igual a última data de vencimento informada no grupo de parcelas 
+Dados de Pessoa Física devem ser obrigatoriamente informados 
+Dados de Pessoa Jurídica devem ser obrigatoriamente informados 
+Contrato informado não é permitido para este arquivo 
+Forma de pagamento obrigatório para o aditamento de parcelas 
+Existe mais de uma Cessão para a data informada, favor reenviar o arquivo informando o NUCess 
+Enviar o Grupo correspondente ao Tipo de Cliente informado 
+Dados enviados não correspondem a forma de pagamento informada 
+Dados referentes à parcela ou forma de pagamento, não informados. 
+Erro ao recomprar ou liquidar um contrato já baixado 
+Aditamento não permitido. Contrato em processo de portabilidade 
+Reserva ou aceite da reserva não permitido. Contrato em processo de portabilidade 
+Troca de gestão não permitida. Contrato em processo de portabilidade 
+Operação cancelada por portabilidade 
+Bloqueio não permitido. Contrato em processo de portabilidade 
+Transferência não permitida. Contrato em processo de portabilidade 
+Data hora da aprovação da portabilidade deve ser informada 
+Data de referência do saldo devedor deve ser informada 
+Valor do saldo devedor deve ser informado 
+Data hora da efetivação da portabilidade deve ser informada 
+Situação da efetivação da portabilidade deve ser informada 
+Data hora do cancelamento da portabilidade deve ser informada 
+Motivo do cancelamento da portabilidade deve ser informado 
+Data hora da retenção da portabilidade do contrato deve ser informada 
+Motivo da retenção da portabilidade do contrato deve ser informado 
+Grupo Saldo Devedor Contábil deve ser informado 
+Exclusão não permitida. Contrato em processo de portabilidade 
+Formatação do código do contrato inválida. Não são permitidos espaços em branco nem caracteres especiais tais como “.”, “/” ou “-“ 
+Contrato não possui parcelas ativas 
+Nenhuma operação de cisão parcial pendente registrada para o solicitante contendo o incorporador informado 
+Tipo de contrato informado diferente do registrado na operação de cisão parcial 
+Somente contrato com situação igual a “Ativo” ou “Portabilidade” pode ser cindido 
+Contrato informado não pertence ao tipo de contrato informado na tag <TpContrto> 
+Participante solicitante não possui permissão para solicitar a cisão parcial deste contrato 
+Evento não existe 
+Evento já cancelado 
+Evento já confirmado 
+Participante informado não é o incorporador do evento informado 
+Para cisão parcial com tipo igual “por carteira” não é permitido informar a lista de contratos 
+Solicitante não é proprietário atual de todas as parcelas do contrato 
+Contrato bloqueado. 
+Para cisão parcial com tipo igual “por lista de contratos” a lista de contratos deve ser informada 
+A quantidade contratos na operação de cisão deve ser informada. 
+Quantidade de contratos na cisão divergente 
+Contrato informado não é um contrato consignado com ente consignante INSS 
+Somente o titular atual de um contrato ou seu incorporador ou o gestor atual pode solicitar a troca de titularidade INSS 
+Troca de titularidade não permitida. Situação da garantia no agente validador não permite troca de titularidade. 
+Participante informado não é o novo titular do evento informado 
+Aditamento de contrato com troca de titularidade pendente não é permitido. 
+Para liquidação financeira na câmara total ou parcial o valor financeiro da operação deve ser informado 
+Para liquidação financeira não realizada pela câmara ou parcial a qualificação de cessão sem financeiro deve ser informada 
+Para liquidação financeira não realizada pela câmara ou parcial o valor do montante não financeiro da operação deve ser informado 
+Para liquidação financeira não realizada pela câmara o valor financeiro da operação não deve ser informado 
+Para liquidação financeira na câmara a qualificação de cessão sem financeiro não deve ser informada 
+Para liquidação financeira na câmara o valor do montante não financeiro da operação não deve ser informado 
+Número do Contrato Originador deve ser informado somente para contratos originados de uma renegociação (“Indicador de Contrato Renegociado” igual a “S”) 
+O DNA do Contrato Originador (Grupo Identificador Chave do Contrato Originador) deve ser informado somente para contratos originados de uma renegociação (“Indicador de Contrato Renegociado” igual a “S”) 
+O grupo “Juros de Mora Contrato” deve ser informado quando o indicador de cobrança de juros de mora for preenchido igual a “S” 
+O grupo “Multa Contrato” deve ser informado quando o indicador de juros de cobrança de multa for preenchido igual a “S” 
+Para cobrança de juros de mora com valor fixo o “Valor de Juros de Mora” deve ser informado. 
+Informação inválida para cobrança de juros de mora com valor fixo 
+Para cobrança de juros de mora com valor calculado o “Tipo de Cálculo de Juros de Mora” deve ser informado. 
+Informação inválida para cobrança de juros de mora com valor calculado 
+Para o tipo de cálculo de juros de mora informado a forma de cálculo de juros de mora é obrigatória 
+Para o tipo de cálculo de juros de mora informado a taxa de juros de mora é obrigatória 
+Para o tipo de cálculo de juros de mora informado a periodicidade da taxa de juros de mora é obrigatória 
+Informação inválida para tipo de cálculo de juros de mora igual a “Percentual” 
+Para o tipo de cálculo de juros de mora informado o indexador de juros de mora é obrigatório 
+Para o tipo de cálculo de juros de mora informado o percentual sobre o indexador de juros de mora é obrigatório 
+Informação inválida para tipo de cálculo de juros de mora igual a “Indexador” 
+Para cobrança de multa com valor fixo o “Valor de Multa” deve ser informado. 
+Informação inválida para cobrança de multa com valor fixo 
+Para cobrança de multa com valor calculado a “Base de Cálculo da Multa” deve ser informada 
+Para cobrança de multa com valor calculado pelo menos um dos campos de cálculo deve ser informado “Percentual Multa” ou “Indexador Multa”” deve ser informada 
+Informação inválida para cobrança de juros de mora com valor calculado 
+Informação inválida para tipo de parcela diferente de Prejuízo 
+Para tipo de parcela igual a “Prejuízo” o valor do saldo de prejuízo da parcela deve ser informado 
+Para tipo de parcela igual a “Prejuízo” o valor do saldo de prejuízo original da parcela deve ser informado 
+Para situação da parcela igual a “Baixada” o grupo Pagamento Parcela deve ser informado 
+Para indicador de parcela cedida igual a “Sim” a identificação do Cessionário deve ser informada. 
+Para indicador de parcela cedida igual a “Sim” a situação do repasse deve ser informada 
+Data de pagamento da parcela não pode ser inferior à data do contrato 
+Para indicador de leilão igual a “Sim” o “Valor do Leilão” deve ser informado 
+Faixa de parcela duplicada no grupo de Parcelas Pagas 
+Garantia duplicada 
+Para tipo de garantia igual a “Veículos” o grupo “Veículo” deve ser informado. 
+Para tipo de garantia igual a “Imóveis” o grupo “Imóvel” deve ser informado. 
+Para tipo de garantia igual a “Aval” ou “Devedor Solidário” ou “Fiança PF” ou “Fiança PJ” o grupo “Garantia Fidejussória” deve ser informado 
+Para tipo de garantia igual a “Equipamentos” o grupo “Equipamento” deve ser informado 
+Para tipo de garantia igual a “Mercadorias” o grupo “Mercadoria” deve ser informado 
+Para tipo de garantia igual a “Instrumentos Financeiros” o grupo “Instrumento Financeiro” deve ser informado 
+Informação inválida para tipo de garantia igual a “Cesta” 
+Informação inválida para tipo de contrato igual a “Crédito Pessoal” 
+Informação inválida para tipo de contrato igual a “CDC Outros Bens” 
+Para tipo de contrato igual a “CDC Outros Bens” deve ser informado pelo menos um bem financiado do tipo “Equipamentos” ou “Mercadorias” 
+Se informado o “Valor da Garantia na Data de Reavaliação” a “Data de Reavaliação” 
+Para tipo de garantia igual a “Aval” ou “Devedor Solidário” ou “Fiança PF” ou “Fiança PJ” o valor do “Percentual de Garantia” deve ser informado 
+Informação inválida para tipo de garantia igual a “Aval” ou “Devedor Solidário” ou “Fiança PF” ou “Fiança PJ” o valor do “Percentual de Garantia” 
+Informação inválida para tipo de garantia igual a “Outros” 
+Para tipo de garantia igual a “Cesta” a “Classificação de Risco Cesta” deve ser informada 
+Para tipo de garantia igual a “Veículos” ou “Imóveis” ou “Equipamentos” ou “Mercadorias” ou “Instrumentos Financeiros” ou “Cesta” ou “Outros” o “Valor Original da Garantia” deve ser informado. 
+Informação inválida para tipo de garantia igual a “Veículos” ou “Imóveis” ou “Equipamentos” ou “Mercadorias” ou “Instrumentos Financeiros” ou “Cesta” ou “Outros” 
+Informação válida somente para tipo de garantia igual a “Cesta” 
+Para veículo usado é obrigatório informar “Número da Placa”, “UF do Número da Placa”, “Quilometragem” e “RENAVAM” 
+Enviar somente o grupo corresponde ao tipo de pessoa garantia fidejussória informado. 
+Data de vencimento do instrumento financeiro deve ser maior que data inicial 
+A lista de características especiais deve ser informada para contratos renegociados 
+Para contratos renegociados somente uma das informações é requerida “Número do Contrato Originador” ou “DNA do Contrato Originador (Grupo Identificador Chave do Contrato Originador)” 
+Nu de Contrato informado não está registrado na C3 
+Se “contrato em prejuízo” informado igual a “Sim” o tipo de todas as parcelas deve ser igual “3”-prejuízo 
+Para registrar um contrato é necessário ter pelo menos uma parcela ativa 
+Aditamento não permitido. Contrato informado não pertence ao tipo de contrato permitido para o arquivo. 
+Informação inválida para tipo de contrato igual a “Financiamento de Veículos” 
+Para tipo de contrato igual a “Financiamento de Veículos” deve ser informado pelo menos um bem financiado do tipo “Veículos” 
+Situação atual do contrato diferente de ativo. 
+Aditamento não permitido. Contrato possui parcelas cedidas. 
+Aditamento não permitido. Contrato possui parcelas bloqueadas. 
+Aditamento não permitido. Novo código de contrato original deve ser diferente do atual 
+Aditamento não permitido. Novo código de contrato original pertence a contrato já registrado na C3. 
+Para inclusão de novas garantias o Número de Controle da IF da Garantia, o Tipo e Sub Tipo da Garantia devem ser informados 
+Informação não permitida para inclusão de novas Garantias 
+Para alteração de garantias o Número Único da Garantia deve ser informado 
+Informação não permitida para alteração de Garantias 
+Número Único da Garantia informado não está registrado na C3 
+Número Único da Garantia não pertence ao contrato informado 
+Número Único da Garantia informado não está ativo na C3 
+Para inclusão de novas parcelas o Número de Controle da IF da Parcela, Data de vencimento da parcela, Tipo Parcela , Valor da parcela , Valor do Principal da Parcela , Valor do Principal da Parcela Original , Situação da Parcela e Indicador de Parcela Cedida devem ser informados 
+Informação não permitida para inclusão de novas Parcelas 
+Para alteração de parcelas o Número Único da Parcela deve ser informado 
+Informação não permitida para alteração de Parcelas 
+Número Único da Parcela informado não está ativo na C3 
+DNA do Contrato Originador informado já está registrado na C3. Para contato originador já registrado na C3 o Nu do Contrato deve ser informado 
+Aditamento não permitido. Originador do contrato originador deve ser o mesmo do contrato sendo aditado ou um seu incorporado 
+Percentual de coobrigação é obrigatório para tipo de coobrigação igual a “0101” ou “0102” ou “0103” ou “0104” 
+Percentual de risco de coobrigação é obrigatório para tipo de coobrigação igual a “0105” 
+Quantidade de dias para repasse é obrigatório para tipo de repasse igual a “2” 
+Dia do mês para repasse é obrigatório para tipo de repasse igual a “3” 
+Critério de seleção de contratos é obrigatório para tipo de reserva igual a “1” 
+Lista de contratos é obrigatório para tipo de reserva igual a “1” 
+Quantidade de dias a vencer é obrigatório para tipo de vencimento das parcelas igual a “1” 
+Quantidade de dias vencida é obrigatório para tipo de vencimento das parcelas igual a “2” 
+Quantidade de dias a vencer e vencida são obrigatórias para tipo de vencimento das parcelas igual a “3” 
+Informação inválida para o tipo de vencimento de parcela informado 
+O valor do percentual da variação do valor financeiro deve ser informado 
+O tipo da variação do valor financeiro deve ser informado 
+Situação da reserva não permite registro de aceite 
+Somente o cedente pode registrar o aceite para uma reserva com situação “pendente de aceite do cedente” 
+Somente o cessionário pode registrar o aceite para uma reserva com situação “pendente de aceite do cessionário” 
+O aceite deve ser registrado informando a quantidade de parcelas aceitas ou quantidade de parcelas recusadas 
+O aceite deve ser registrado informando apenas a quantidade de parcelas aceitas ou quantidade de parcelas recusadas 
+A lista de parcelas reservadas aceitas deve ser informada 
+A lista de parcelas reservadas recusadas deve ser informada 
+A lista de parcelas reservadas aceitas está incompleta 
+A lista de parcelas reservadas recusadas está incompleta 
+Parcela não pertence à reserva 
+Reserva de contratos não atualizados não é permitida 
+Valor Financeiro da Recompra deve ser informado 
+Liquidação Financeira da Recompra na câmara não ativada 
+Informação não permitida para indicador de liquidação financeira igual a “Não” 
+Participante informado não faz parte da lista de confirmação do evento 
+Liquidação Financeira do Repasse na câmara não ativada 
+Valor Financeiro do Repasse deve ser informado 
+A solicitação de liquidação financeira do repasse deve ser realizada por lista de contratos ou por lista de parcelas. 
+Contrato não possui parcelas com repasse pendente de ser realizado 
+Participante não é o gestor atual da cadeia ativa da parcela 
+Parcela não possui repasse pendente 
+Parcela possui operação pendente 
+Evento não confirmado 
+Informação inválida para evento de estorno de liquidação do repasse realizado por contrato 
+Informação inválida para evento de estorno de liquidação do repasse realizado por parcela 
+Evento já estornado 
+Contrato não faz parte da operação de liquidação do repasse informada 
+Parcela não faz parte da operação de liquidação do repasse informada 
+Situação do contrato na operação de liquidação do repasse não permite estorno 
+Situação da parcela na operação de liquidação do repasse não permite estorno 
+Estorno permitido apenas para o solicitante do evento a estornar ou seu Incorporador 
+Situação da parcela não permite informe de baixa 
+Parcela inexistente 
+Os dados de alteração da parcela devem ser informados 
+Informação inválida para o tipo de baixa informado. 
+Novo valor do saldo de prejuízo deve ser informado 
+Parcela não faz parte da operação de baixa de parcela informada 
+Situação da parcela na operação de baixa de parcela não permite estorno 
+Situação da parcela não permite informe de não baixa 
+Contrato com cessão ativa que não permite alteração de dados cadastrais. A recompra deve ser efetuada. 
+Contrato já transferido pra prejuízo 
+Grupo de identificação do novo contrato é obrigatório para tipo de baixa igual a “0305”(Renegociada) ou “0307” (Saída por alteração de código de contrato ou modalidade/submodalidade) ou “0313”(Saída por Assunção de Dívida) 
+Somente contratos registrados antes da implantação da registradora e que ainda não tiveram os registros complementados podem ser atualizados 
+Informação obrigatória para o “Tipo Motivo Alteração de Dados Cadastrais” não informada 
+Informação inválida para o “Tipo Motivo Alteração de Dados Cadastrais” informado 
+Integração DDA não ativada 
+O número da linha digitável deve ser informado 
+Pelo menos uma informação de atualização de boleto deve ser informada 
+Para "Tipo Leiaute Conciliação SCR" igual a “reduzido” o grupo de informações reduzido deve ser informado 
+Para "Tipo Leiaute Conciliação SCR" igual a “reduzido” somente o grupo de informações reduzido pode ser informado 
+Para "Tipo Leiaute Conciliação SCR" igual a “completo” o grupo de informações completo deve ser informado 
+Para "Tipo Leiaute Conciliação SCR" igual a “completo” somente o grupo de informações completo pode ser informado 
+Para "Tipo Leiaute Conciliação SCR" igual a “reduzido” o total de contratos deve ser informado 
+Para "Tipo Leiaute Conciliação SCR" igual a “reduzido” somente o total de contratos deve ser informado 
+Para "Tipo Leiaute Conciliação SCR" igual a “completo” o total de clientes deve ser informado 
+Para "Tipo Leiaute Conciliação SCR" igual a “completo” somente o total de clientes deve ser informado 
+Uma remessa vigente não pode ser substituída. Solicitar o cancelamento da remessa anterior. 
+Número de conciliação informado não encontrado 
+Remessa para conciliação SCR já cancelada 
+Remessa incompleta. Cancelamento não permitido 
+Participante informado não é o proprietário da remessa 
+Não existe vínculo ativo entre o originador do contrato e o novo participante gestor. 
+Se “contrato em prejuízo” informado igual a “Não” o tipo de todas as parcelas deve ser diferente de “3”-prejuízo 
+Para situação de parcela somente os domínios “0”(Ativa”) e “2”(Baixada) são permitidos para uso dos participantes da C3. 
+Grupo de dados de garantia inválido para o tipo informado. 
+Nenhuma parcela encontrada para os critérios de seleção informados. 
+Para reserva registrada com troca de gestão igual a “S” o “Indicador de alteração de dados cadastrais” dever ser informado igual a “S”. 
+Quantidade de contratos na remessa ultrapassa a informada na tag <TotalContrto> 
+Quantidade de clientes na remessa ultrapassa a informada na tag <TotalCli> 
+Forma de pagamento exclusiva para contrato de crédito consignado 
+Forma de pagamento inválida para contrato de crédito consignado 
+Tipo de ação parcela igual a “3”- Estorno de parcela baixada por vencimento é permitido apenas para atualização de dados cadastrais tipo motivo alteração igual a “1” e para parcelas baixadas automaticamente por vencimento 
+Para Estorno de parcela baixada por vencimento o Número Único da Parcela deve ser informado 
+Informação não permitida para Estorno de parcela baixada por vencimento. Para estorno de parcela baixada por vencimento informe apenas o NuParcl 
+Para Estorno de parcela baixada por vencimento a situação da parcela informada deve ser igual a “5”-Baixada por vencimento 
+Para complemento de dados de contrato nenhuma informação registrada poderá ser alterada. 
+Contratos de crédito consignado não permitem registro de garantia 
+Informação não permitida para o tipo de contrato informado 
+Complemento de dados de pessoa jurídica não é permitido para o produto CDC Outros Bens. 
+Para complemento de dados do contrato o grupo “Dados Básicos do Contrato” deve ser enviado 
+Reserva com divergência para o “Indicador de Contratos em Prejuízo”. Todos os contratos devem estar “Indicador de Contratos em Prejuízo” igual a “Sim” ou todos os contratos devem estar “Indicador de Contratos em Prejuízo” igual a “Não”. 
+Para reserva de contratos que não estão em situação de prejuízo a lista de parcelas é obrigatória. 
+Nenhuma parcela desse contrato foi aceita para reserva 
+Número Único da Parcela informado não está registrado na C3 
+O valor renegociado é obrigatório para o tipo de baixa de contrato informado 
+O tipo do cliente é obrigatório para o tipo de baixa de contrato informado 
+O CNPJ/PCF do cliente é obrigatório para o tipo de baixa de contrato informado 
+O valor da dívda é obrigatório para o tipo de baixa de contrato informado 
+Informação inválida para o tipo de baixa de contrato informado 
+Troca de Gestão com troca de originação não permitida. Já existe um contrato registrado para o Novo Gestor com o mesmo DNA (Código do contrato original, CNPJ Base da IF originadora do Contrato, Tipo do cliente, CNPJ ou CPF do cliente tomador do crédito e Tipo do Contrato) 
+Parcela em operação de troca de gestão 
+Exclusão não permitida. Contrato só pode ser excluído pelo seu originador ou seu incorporador. 
+Exclusão não permitida. Todas as parcelas do contrato devem estar com situação igual a livre. 
+Inclusão não permitida. Já existe um contrato registrado com o mesmo DNA (Código do contrato original, CNPJ Base da IF originadora do Contrato, Tipo do cliente, CNPJ ou CPF do cliente tomador do crédito e Tipo do Contrato) com situação “Excluído” e cedido ou transferido de posição na data da exclusão. A exclusão deve ser cancelada. 
+Situação atual do contrato diferente de excluído. Somente contrato excluído pode ter o pedido de cancelamento de exclusão aceito 
+Exclusão não permitida. Exclusão permitida apenas para contratos cedidos em cadeia simples. 
+Exclusão não permitida. Contrato cedido com coobrigação não pode ser excluído. 
+Exclusão não permitida. Contrato cedido com troca de gestão não pode ser excluído. 
+Exclusão não permitida. Contrato cedido parcialmente. Exclusão permitida apenas para contratos cedidos integralmente. 
+Exclusão não permitida. Se contrato cedido somente o Gestor Atual ou o Cessionário podem solicitar a exclusão. 
+Exclusão não permitida. Exclusão permitida apenas para contratos transferidos para um único Beneficiário. 
+Exclusão não permitida. Contrato transferido de posição com troca de gestão não pode ser excluído. 
+Exclusão não permitida. Contrato transferido parcialmente. Exclusão permitida apenas para contratos transferidos integralmente. 
+Exclusão não permitida. Se contrato transferido somente o Gestor Atual ou o Beneficiário podem solicitar a exclusão. 
+Erro inesperado 
